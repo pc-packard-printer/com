@@ -1,0 +1,1872 @@
+<!doctype html>
+<html lang="en">
+
+
+<!-- Mirrored from www.pcpackard.com/smart-printer-setup by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 06 May 2026 03:55:38 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <!-- Start cookieyes banner -->
+    <script id="cookieyes" type="text/javascript" src="../cdn-cookieyes.com/client_data/0b0e1fa0d7c02064561069c7/script.html"></script> <!-- End cookieyes banner -->
+    <!-- <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/fa9b6ed4fb579fe76a50c097/script.js"></script> -->
+    <script async src="../ob.buzzfufighter.com/i/d9c79467aaaddd0b766544f5fcb0d99d.js" class="ct_clicktrue"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Title -->
+    <title>PC Packard | Smart Printer Setup</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/fav-icon-white.png">
+    <!-- Bootstrap Min CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Animated CSS -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!-- FlatIcon CSS -->
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <!-- Font Awesome Min CSS -->
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <!-- Mean Menu CSS -->
+    <link rel="stylesheet" href="assets/css/meanmenu.css">
+    <!-- Swiper Min CSS -->
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
+    <!-- Owl Carousel Min CSS -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/custome.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
+    <style>
+        div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-confirm) {
+            border-radius: 250px !important;
+            background-color: #03bbd3 !important;
+            width: 200px !important;
+        }
+
+        .dropdown-menu a {
+            text-decoration: none;
+            color: #000000;
+        }
+
+        .dropdown-menu a .d-flex {
+            transition: all 0.5s;
+        }
+
+        .dropdown-menu .col-sm-6:nth-child(1) a:hover .d-flex {
+            background-color: var(--bs-warning-bg-subtle);
+        }
+
+        .dropdown-menu .col-sm-6:nth-child(2) a:hover .d-flex {
+            background-color: var(--bs-danger-bg-subtle);
+        }
+
+        .dropdown-menu .col-sm-6:nth-child(3) a:hover .d-flex {
+            background-color: var(--bs-success-bg-subtle);
+        }
+
+        .dropdown-menu .col-sm-6:nth-child(4) a:hover .d-flex {
+            background-color: var(--bs-secondary-bg-subtle);
+        }
+
+        .dropdown-menu .col-sm-6:nth-child(5) a:hover .d-flex {
+            background-color: var(--bs-tertiary-bg);
+        }
+
+        .dropdown-menu .col-sm-6:nth-child(6) a:hover .d-flex {
+            background-color: var(--bs-info-bg-subtle);
+        }
+
+        @media only screen and (min-width: 992px) {
+            .dropdown-menu {
+                width: 55vw;
+            }
+
+            .dropdown:hover .dropdown-menu {
+                display: flex;
+            }
+
+            .dropdown-menu.show {
+                display: flex;
+            }
+        }
+
+        .dropdown-menu h2 {
+            font-size: 18px;
+            padding-top: 15px;
+            padding-left: 5px;
+        }
+
+        .border-0 {
+            border-radius: 0px !important;
+        }
+
+        .fa-check-circle:before {
+            content: "\f058";
+            color: #0dcaf0 !important;
+        }
+
+        #popular-services ul {
+            list-style-type: none !important;
+            /* Remove bullet points */
+            padding: 0 !important;
+            margin: 0 !important;
+        }
+
+        .stats {
+            text-align: center !important;
+        }
+
+        .stats li {
+            display: inline;
+            list-style-type: none;
+            padding-left: 20px;
+            border-bottom: none;
+        }
+
+        .stats li a {
+            padding-top: 20px;
+            color: #000 !important;
+        }
+
+        .dropdown-menu img {
+            position: relative !important;
+            top: -3px !important;
+            left: -5px !important;
+        }
+
+        .search-box {
+            position: relative;
+            width: 700px;
+            max-width: 90%;
+            display: flex;
+            background: white;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            flex-direction: column;
+        }
+
+        .search-input-wrapper {
+            display: flex;
+            width: 100%;
+        }
+
+        .search-box input {
+            flex: 1;
+            padding: 15px;
+            font-size: 16px;
+            border: none;
+            outline: none;
+        }
+
+        .search-box button {
+            padding: 0 25px;
+            background-color: #007bff;
+            color: white;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+        }
+
+        .suggestions {
+            width: 100%;
+            background: white;
+            border-top: 1px solid #ccc;
+            z-index: 1000;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+
+        .suggestions div {
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .suggestions div:hover {
+            background-color: #f0f0f0;
+        }
+
+        ul.custom-checklist {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul.custom-checklist li {
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+
+        ul.custom-checklist li::before {
+            content: "✔";
+            /* Checkmark icon */
+            position: absolute;
+            left: 0;
+            top: 2px;
+            background-color: #005bb5;
+            /* Green background */
+            color: white;
+            border-radius: 4px;
+            width: 24px;
+            height: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .lbtn {
+            font-family: "Poppins", Sans-serif;
+            font-size: 18px;
+            font-weight: 500;
+            color: #000;
+            background-color: #00C5FF;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+            padding: 15px 50px 15px 50px;
+            border: 1px solid #00C5FF;
+        }
+
+        .lbtn:hover {
+            transform: scale(1.1);
+            /* Grow effect */
+            animation: pulse 1s infinite;
+            /* Pulse effect */
+            transition: 0.9s;
+        }
+
+        @keyframes pulse {
+
+            0%,
+            100% {
+                box-shadow: 0 0 0 0 rgba(76, 175, 80, 0.7);
+            }
+
+            50% {
+                box-shadow: 0 0 15px 10px rgba(76, 175, 80, 0);
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-website">
+    <!-- <div class="preloader">
+        <div class="loader">
+            <div class="shadow"></div>
+            <div class="box"></div>
+        </div>
+    </div> -->
+    <!-- Start Navbar Section -->
+
+  
+
+    <div class="navbar-section">
+        <div class="webtech-responsive-nav">
+            <div class="container">
+                <div class="webtech-responsive-menu">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="images/pc-logo-1.png" class="white-logo" alt="logo">
+                            <img src="images/pc-logo-1.png" class="black-logo" alt="logo">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="webtech-nav">
+            <div class="container">
+                <nav class="navbar navbar-expand-md navbar-light">
+                    <a class="navbar-brand" href="index.html" style="width: 10%;">
+                        <img src="images/pc-logo-1.png" class="white-logo" alt="logo">
+                        <img src="images/pc-logo-1.png" class="black-logo" alt="logo">
+                    </a>
+                    <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li><li class="nav-item"><a href="about.html" class="nav-link">About</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Service</a><div class="dropdown-menu px-3 rounded-3 border-0 shadow"><div class="row"><div class="col-lg-3"><h2><img src="icons/home.png">Smart Home</h2><div class="links"><ul><li><i class="fa fa-check-circle"></i><a href="pagesc449.html?thermostat">Thermostat</a></li><li><i class="fa fa-check-circle"></i><a href="pagesae7b.html?video-doorbells">Video Doorbells</a></li><li><i class="fa fa-check-circle"></i><a href="pages5f61.html?hubs-speakers">Hubs & Speakers</a></li><li><i class="fa fa-check-circle"></i><a href="pages03f0.html?garage-doors">Garage Doors</a></li></ul></div></div><div class="col-lg-3"><h2><img src="icons/sound.png">Audio & Video</h2><div class="links"><ul><li><i class="fa fa-check-circle"></i><a href="pagesf3e6.html?home-theater">Home Theater</a></li><li><i class="fa fa-check-circle"></i><a href="pagesbf8d.html?universal-remote">Universal Remote</a></li><li><i class="fa fa-check-circle"></i><a href="pages8fc0.html?advanced-audio-systems">Advanced Audio Systems</a></li><li><i class="fa fa-check-circle"></i><a href="pages7824.html?gaming-console-setup">Gaming Console Setup</a></li></ul></div></div><div class="col-lg-3"><h2><img src="icons/energy-saving-light.png">Around The Home</h2><div class="links"><ul><li><i class="fa fa-check-circle"></i><a href="pages094a.html?wall-hanging">Wall Hanging</a></li><li><i class="fa fa-check-circle"></i><a href="pages48f8.html?light-bulb-changing">Light Bulb Changing</a></li><li><i class="fa fa-check-circle"></i><a href="pagesdaeb.html?furniture-assembly">Furniture Assembly</a></li><li><i class="fa fa-check-circle"></i><a href="pages2f65.html?holiday-light-hanging-removal">Holiday Light Hanging / Removal</a></li><li><i class="fa fa-check-circle"></i><a href="pages384d.html?yard-clean-up">Yard Clean-up</a></li><li><i class="fa fa-check-circle"></i><a href="pages8304.html?general-handyman">General Handyman</a></li></ul></div></div><div class="col-lg-3"><h2><img src="icons/wifi.png">WiFi & Network</h2><div class="links"><ul><li><i class="fa fa-check-circle"></i><a href="pagesd7d0.html?routers">Routers</a></li><li><i class="fa fa-check-circle"></i><a href="pages21c5.html?in-wall-cable-running">In-Wall Cable Running</a></li></ul></div></div><div class="col-lg-3"><h2><img src="icons/insurance.png">Home Security</h2><div class="links"><ul><li><i class="fa fa-check-circle"></i><a href="pages0366.html?cameras">Cameras</a></li><li><i class="fa fa-check-circle"></i><a href="pages423e.html?locks">Locks</a></li><li><i class="fa fa-check-circle"></i><a href="pages5974.html?alarm-systems">Alarm Systems</a></li></ul></div></div><div class="col-lg-3"><h2><img src="icons/smartphone-24.png">Mobile Devices</h2><div class="links"><ul><li><i class="fa fa-check-circle"></i><a href="pagesce81.html?phone-tablet">Phone & Tablet</a></li></ul></div></div><div class="col-lg-3"><h2><img src="icons/smart-tv.png">TV Mounting</h2><div class="links"><ul><li><i class="fa fa-check-circle"></i><a href="pages2e40.html?tv-dismount-or-remount">TV Dismount or Remount</a></li><li><i class="fa fa-check-circle"></i><a href="pagesab1d.html?tv-mounting-up-to-32">TV Mounting (up to 32")</a></li><li><i class="fa fa-check-circle"></i><a href="pagesd09d.html?tv-mounting-33-60">TV Mounting (33"-60")</a></li><li><i class="fa fa-check-circle"></i><a href="pages2c4d.html?tv-mounting-61-or-larger">TV Mounting (61" or larger)</a></li><li><i class="fa fa-check-circle"></i><a href="pages43d4.html?tv-wire-in-wall-concealment">TV Wire In-Wall Concealment</a></li></ul></div></div><div class="col-lg-3"><h2><img src="icons/laptop24.png">Computers & Printers</h2><div class="links"><ul><li><i class="fa fa-check-circle"></i><a href="pagesdf53.html?computer">Computer</a></li><li><i class="fa fa-check-circle"></i><a href="pagesa935.html?printer">Printer</a></li></ul></div></div><div class="col-lg-12">
+                                    <div class="row">
+                                        <h3 class="text-center" id="popular-services">Popular Services</h3>
+                                        <ul class="stats">
+                                            <li><a href="pagesc7ed.html?computer-repair-help-printer-setup">Computer Maintenance & Help Printer Setup</a></li>
+                                            <li><a href="pagesed25.html?printer-troubleshooting">Printer Troubleshooting</a></li>
+                                            <li><a href="pages7c93.html?new-wifi-connection-setup">New WiFi Connection Setup</a></li>
+                                            <li><a href="pages1984.html?email-or-online-account-setup-or-support">Email or Online Account Setup or Support</a></li>
+                                        <br/>
+                                        <br/>
+                                            </ul>
+                                            <ul class="stats">
+                                            <li><a href="pagesf4fa.html?new-mobile-device-setup">New Mobile Device Setup</a></li>
+                                            <li><a href="pagesd09d.html?tv-mounting-33-60">TV Mounting (33″-60″)</a></li>
+                                            <li><a href="pages2c4d.html?tv-mounting-61-or-larger">TV Mounting (61″ or larger)</a></li>
+                                            <li><a href="pages1844.html?home-theater-hook-up-setup">Home Theater Hook-up & Setup</a></li>
+                                            <li></li>
+`                                            </ul>
+                                    </div>
+                                </div></div></div>
+                            </li><li class="nav-item"><a href="partner-with-us.html" class="nav-link">Partner With Us</a></li><li class="nav-item"><a href="membership.html" class="nav-link">Membership</a></li><li class="nav-item"><a href="faq.html" class="nav-link">FAQs</a></li>
+                            <li class="nav-item numb">
+                                <a href="#" class="nav-link">
+                                    <i class="fa fa-volume-control-phone" aria-hidden="true"></i>&nbsp;+1 (800) 342-2399
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="other-option">
+                            <a class="default-btn book-appoinment" href="#" data-bs-toggle="modal" data-bs-target="#appoinmentModel">Get In Touch <span></span></a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- End Navbar Section -->
+<link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<style>
+
+.navbar-section {
+    background-color: #040C3575;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    display: none;
+}
+.numb{
+    display:none !important;
+}
+        ul li{
+            margin-bottom: 10px;
+        }
+        ul.text-white li {
+  list-style: none;
+  position: relative;
+  padding-left: 30px; 
+}
+
+ul.text-white li::before {
+  content: "\f00c"; 
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900; 
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+}
+
+.book-appoinment{
+    background:#024ad9 !important; 
+    color:#fff;
+    border:1px solid #024ad9;
+}
+.book-appoinment:hover {
+    background:#024ad9;
+    transform: scale(1.1);
+    /* Grow effect */
+    animation: pulse 1s infinite;
+    /* Pulse effect */
+    transition: 0.9s;
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        box-shadow: 0 0 0 0 rgba(76, 175, 80, 0.7);
+    }
+
+    50% {
+        box-shadow: 0 0 15px 10px rgba(76, 175, 80, 0);
+    }
+}
+.row {
+    justify-content: flex-start !important;
+}
+.box{
+    box-shadow:0px 0px 2px 0px #fff;
+    padding:10px 10px 30px 10px;
+    background:#f5f5f5;
+    border-radius:10px;
+}
+.iconm{
+    width:100px;
+    padding-bottom:7px;
+}
+.features-service-card {
+    background: #fff;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
+    transition: transform .3s;
+    overflow: hidden;
+    border: none;
+    border-bottom: 8px solid #165dba;
+  z-index: 1;
+}
+.features-service-card-body {
+    padding: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.features-service-card-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 1rem;
+    letter-spacing: .5px;
+    transition: color .3s;
+}
+
+.features-service-card::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #165dba;
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: transform 0.3s ease;
+  z-index: 0;
+}
+
+.features-service-card:hover::before {
+  transform: scaleY(1);
+}
+
+.features-service-card:hover .features-service-card-title {
+  color:#fff;
+}
+
+.features-service-card:hover .features-service-card-text {
+  color:#fff;
+}
+
+.features-service-card:hover .features-icon {
+  color:#fff;
+}
+
+.features-service-card svg {
+  font-size:40px;
+}
+.features-service-card:hover .features-icon svg path {
+  fill: #ffffff; /* white color */
+}
+
+.iconm1{
+       margin-top:-60px
+      }
+      
+      .box-imgg{
+          width:80px;
+          height:80px;
+          background:#fff;
+          border-radius:50%;
+          box-shadow:0px 0px 2px 0px gray;
+      }
+      .menu-bar {
+      background-color: #2d9cdb; /* blue background */
+      padding: 15px 0;
+      text-align: center;
+    }
+
+    .menu-bar ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: inline-block;
+    }
+
+    .menu-bar ul li {
+      display: inline;
+      margin: 0 25px;
+    }
+
+    .menu-bar ul li  {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+      transition: color 0.3s;
+    }
+  
+  .lbtn {
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #024ad9;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    padding: 15px 50px 15px 50px;
+    border: 1px solid #024ad9;
+}
+
+.lbtn:hover {
+    transform: scale(1.1);
+    /* Grow effect */
+    animation: pulse 1s infinite;
+    /* Pulse effect */
+    transition: 0.9s;
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        box-shadow: 0 0 0 0 rgba(76, 175, 80, 0.7);
+    }
+
+    50% {
+        box-shadow: 0 0 15px 10px rgba(76, 175, 80, 0);
+    }
+}
+
+ .step {
+    display: flex;
+    align-items: center;
+    margin: 0 5px;
+}
+.step-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #024ad9;
+    color: #fff;
+    font-size: 16px;
+}
+.step-text {
+    margin-left: 10px;
+    font-size: 16px;
+}
+.product-type-icon.active {
+    background-color: #024ad9;
+}
+.product-type-icon {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all .3s ease;
+    box-shadow: 0 8px 24px hsla(210, 8%, 62%, .2);
+}
+.product-type-icon.active .icon {
+    color: #fff !important;
+}
+.product-type-icon:hover{
+    background:#0278ab;
+    color:#fff;
+}
+.supportBanner-card {
+    position: relative;
+    background: linear-gradient(135deg,#e0f7ff,#fff);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,.3),-5px -5px 5px #fff;
+    transition: all .5s ease;
+    text-align: center;
+    overflow: hidden;
+    z-index: 1;
+    width: 180px;
+    height: 80%
+}
+
+.supportBanner-card:hover:before {
+    opacity: .4
+}
+
+.supportBanner-card:hover {
+    transform: translateY(-10px) scale(1.05);
+    background: linear-gradient(135deg,#dbefff,#f7fcff)
+}
+
+.supportBanner-card-body {
+    position: relative;
+    z-index: 2
+}
+
+.supportBanner-issue-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.supportBanner-icon {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    margin-bottom: 1rem;
+    animation: floatIcon 3s ease-in-out infinite;
+    transition: transform .4s ease
+}
+
+@keyframes floatIcon {
+    0%,to {
+        transform: translateY(0)
+    }
+
+    50% {
+        transform: translateY(-6px)
+    }
+}
+
+.supportBanner-card:hover .supportBanner-icon {
+    transform: scale(1.1) rotate(6deg)
+}
+
+.supportBanner-text {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #084298;
+    transition: color .4s ease
+}
+
+.supportBanner-card:hover .supportBanner-text {
+    color: #024ad9
+}
+
+@media (max-width: 767px) {
+    .supportBanner-icon {
+        width:55px;
+        height: 55px
+    }
+
+    .supportBanner-text {
+        font-size: 1rem
+    }
+}
+ .slider-container {
+      position: relative;
+      width: 100%;
+      max-width: 600px;
+      margin: auto;
+      overflow: hidden;
+    }
+
+    .slider-wrapper {
+      display: flex;
+      transition: transform 0.5s ease;
+    }
+
+    .slider-wrapper img {
+      width: 100%;
+      flex-shrink: 0;
+    }
+
+    .slider-btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: rgba(0,0,0,0.5);
+      color: #fff;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      z-index: 100;
+    }
+
+    .prev-btn {
+      left: 10px;
+    }
+
+    .next-btn {
+      right: 10px;
+    }
+	.tutorial_link{
+	display: none;
+}
+</style>
+
+	<br><br>
+
+	
+
+<section>
+    <div class="container">
+       <div class="row" style="padding-bottom:20px">
+   <div class="col-md-6 d-flex align-items-center">
+      <div class="steps-container">
+         <div class="step" style="float:left">
+            <div class="step-number">1</div>
+            <div class="step-text">Identify <span class="dorasoft-arrow">&gt;</span></div>
+         </div>
+         <div class="step" style="float:left">
+            <div class="step-number">2</div>
+            <div class="step-text">Download <span class="dorasoft-arrow">&gt;</span></div>
+         </div>
+         <div class="step">
+            <div class="step-number">3</div>
+            <div class="step-text">Install</div>
+         </div>
+      </div>
+   </div>
+   <div class="col-md-6 d-flex align-items-center justify-content-end product-item-sec">
+      <div class="fs-5 light-grey product-type-title" style="padding-right:10px">Select a different product type:</div>
+      <div class="product-type-icon active" style="margin:10px;">
+         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+            <path d="M448 192V77.25c0-8.49-3.37-16.62-9.37-22.63L393.37 9.37c-6-6-14.14-9.37-22.63-9.37H96C78.33 0 64 14.33 64 32v160c-35.35 0-64 28.65-64 64v112c0 8.84 7.16 16 16 16h48v96c0 17.67 14.33 32 32 32h320c17.67 0 32-14.33 32-32v-96h48c8.84 0 16-7.16 16-16V256c0-35.35-28.65-64-64-64zm-64 256H128v-96h256v96zm0-224H128V64h192v48c0 8.84 7.16 16 16 16h48v96zm48 72c-13.25 0-24-10.75-24-24 0-13.26 10.75-24 24-24s24 10.74 24 24c0 13.25-10.75 24-24 24z"></path>
+         </svg>
+      </div>
+      <div class="product-type-icon" style="margin:10px;">
+         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 640 512" class="icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+            <path d="M624 416H381.54c-.74 19.81-14.71 32-32.74 32H288c-18.69 0-33.02-17.47-32.77-32H16c-8.8 0-16 7.2-16 16v16c0 35.2 28.8 64 64 64h512c35.2 0 64-28.8 64-64v-16c0-8.8-7.2-16-16-16zM576 48c0-26.4-21.6-48-48-48H112C85.6 0 64 21.6 64 48v336h512V48zm-64 272H128V64h384v256z"></path>
+         </svg>
+      </div>
+      <div class="product-type-icon" style="margin:10px;">
+         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+            <path d="M528 0H48C21.5 0 0 21.5 0 48v320c0 26.5 21.5 48 48 48h192l-16 48h-72c-13.3 0-24 10.7-24 24s10.7 24 24 24h272c13.3 0 24-10.7 24-24s-10.7-24-24-24h-72l-16-48h192c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zm-16 352H64V64h448v288z"></path>
+         </svg>
+      </div>
+      <div class="product-type-icon" style="margin:10px;">
+         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+            <path d="M400 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zM224 480c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm176-108c0 6.6-5.4 12-12 12H60c-6.6 0-12-5.4-12-12V60c0-6.6 5.4-12 12-12h328c6.6 0 12 5.4 12 12v312z"></path>
+         </svg>
+      </div>
+   </div>
+</div>
+
+    </div>
+</section>
+
+
+<section style="padding:0px 0px 50px 0px;border-top:1px solid #000">
+    <div class="container">
+        <div class="row pt-2 pb-2" style="background:#fbfcfc">
+             <div class="col-md-6" style="padding-top:50px">
+               <h1 style="color:#024ad9">Print, Copy, Scan & Fax</h1>
+               <h5 style="font-size:27px">Connect one-on-one with an Expert </h5>
+               <p style="font-size:17px;font-weight:500;padding-top:15px">Follow an easy, step-by-step method to connect your device, adjust <br>settings, and learn the basics for daily printing at home or work.</p>
+            
+
+            </div>
+            
+            <div class="col-md-6">
+                <div class="slider-container">
+  <div class="slider-wrapper" id="slider">
+    <img src="assets/img/set-1.png" alt="pr-1">
+    <img src="assets/img/set-2.png" alt="pr-2">
+    <img src="assets/img/set-3.png" alt="pr-2">
+  </div>
+  <button class="slider-btn prev-btn" onclick="moveSlide(-1)">❮</button>
+  <button class="slider-btn next-btn" onclick="moveSlide(1)">❯</button>
+</div>
+
+<script>
+  let currentIndex = 0;
+  const slider = document.getElementById('slider');
+  const totalSlides = slider.children.length;
+
+  function moveSlide(direction) {
+    currentIndex += direction;
+    if (currentIndex < 0) currentIndex = totalSlides - 1;
+    if (currentIndex >= totalSlides) currentIndex = 0;
+    updateSlide();
+  }
+
+  function updateSlide() {
+    slider.style.transform = `translateX(-${currentIndex * 100}%)`;
+  }
+
+  // Auto run every 3 seconds
+  setInterval(() => {
+    moveSlide(1);
+  }, 3000);
+</script>
+            </div>
+
+
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row my-4 border-bottom">
+   <div class="col-lg-4 col-xl-2 col-md-4 col-6 mb-4">
+      <a href="select-printer-setup.html">
+         <div class="supportBanner-card" style="cursor:pointer">
+            <div class="supportBanner-card-body">
+               <div class="supportBanner-issue-div mb-3"><img src="images/printersetup.svg" alt="Printer Set Up Issue" class="supportBanner-icon mb-3"><span class="text-blue supportBanner-text">Printer Set Up Issue</span></div>
+            </div>
+         </div>
+      </a>
+   </div>
+   <div class="col-lg-4 col-xl-2 col-md-4 col-6 mb-4">
+      <a href="select-printer-offline.html">
+         <div class="supportBanner-card" style="cursor:pointer">
+            <div class="supportBanner-card-body">
+               <div class="supportBanner-issue-div mb-3"><img src="images/printeroffline.svg" alt="Printer Offline" class="supportBanner-icon mb-3"><span class="text-blue supportBanner-text">Printer Offline</span></div>
+            </div>
+         </div>
+      </a>
+   </div>
+   <div class="col-lg-4 col-xl-2 col-md-4 col-6 mb-4">
+      <a href="select-wireless-printer.html">
+         <div class="supportBanner-card" style="cursor:pointer">
+            <div class="supportBanner-card-body">
+               <div class="supportBanner-issue-div mb-3"><img src="images/wirelessprinterissues.svg" alt="Wireless printer issue" class="supportBanner-icon mb-3"><span class="text-blue supportBanner-text">Wireless printer issue</span></div>
+            </div>
+         </div>
+      </a>
+   </div>
+   <div class="col-lg-4 col-xl-2 col-md-4 col-6 mb-4">
+      <a href="select-paper-jam.html">
+         <div class="supportBanner-card" style="cursor:pointer">
+            <div class="supportBanner-card-body">
+               <div class="supportBanner-issue-div mb-3"><img src="images/paperjamissues.svg" alt="Paper jam issue" class="supportBanner-icon mb-3"><span class="text-blue supportBanner-text">Paper jam issue</span></div>
+            </div>
+         </div>
+      </a>
+   </div>
+   <div class="col-lg-4 col-xl-2 col-md-4 col-6 mb-4">
+      <a href="select-printer-job-stuck-in-queue.html">
+         <div class="supportBanner-card" style="cursor:pointer">
+            <div class="supportBanner-card-body">
+               <div class="supportBanner-issue-div mb-3"><img src="images/printjobstuck.svg" alt="Printer Job Stuck In Queue" class="supportBanner-icon mb-3"><span class="text-blue supportBanner-text">Printer Job Stuck In Queue</span></div>
+            </div>
+         </div>
+      </a>
+   </div>
+   <div class="col-lg-4 col-xl-2 col-md-4 col-6 mb-4">
+      <a href="select-scanner.html">
+         <div class="supportBanner-card" style="cursor:pointer">
+            <div class="supportBanner-card-body">
+               <div class="supportBanner-issue-div mb-3"><img src="images/scannerissues.svg" alt="Scanner issues" class="supportBanner-icon mb-3"><span class="text-blue supportBanner-text">Scanner issues</span></div>
+            </div>
+         </div>
+      </a>
+   </div>
+</div>
+    </div>
+</section>
+
+	<br><br>
+	
+	<section  style="background:#f8f9fa">
+	<div class="container pb-5">
+	    <h3 style="font-size:32px;color:#1662c0;text-align:center"><span style="color:#000">Streamline</span>  Daily Printing Tasks</h3>
+	    <p style="font-size:18px;color:#393939;text-align:center"><span style="color:#024ad9;">PC Packard</span> Smart Printer Setup helps you handle frequent work-site printing issues. Whether you're dealing with numerous network configurations, arranging home printing access, or connecting devices across locations, the platform offers organised help to make the process easier and more streamlined.</p>
+	     <div class="row" style="">
+	           <div class="col-md-12">
+	              <img src="images/virus-pc.webp" alt="Smart Printer Setup" class="pt-2 pb-3">
+	         </div>
+	     </div>
+	</div>
+	</section>
+	
+	
+	<section  style="padding:80px 0px 60px 0px;background:#fff">
+	<div class="container">
+	     <div class="row" style="">
+	           <div class="col-md-6">
+	              <img src="assets/img/set-6.jpg" alt="Smart Printer Setup" style="padding-top:50px">
+	         </div>
+	         <div class="col-md-6">
+	             <h3 style="color:#1662c0;font-size:38px">How to continue setting up the printer?</h3>
+	            <p style="font-size:18px;text-align:justify;color:#393939">If you've never set up a printer before, here are a few basic steps to help you get everything set up. Be careful to follow the installation procedure step-by-step because it can be complicated.</p>
+	            
+	             <ol style="font-size:18px;line-height:35px">
+	                 <li>1. To begin, remove the printer from its packaging and connect it to a power source.</li>
+	                 <li>2. Carefully set the ink cartridges into their designated slots.</li>
+	                 <li>3. Put some paper in the input tray now. Check the printer's specifications to make sure the paper is compatible.</li>
+	                 <li>4. Make sure to set the time, language, and area, among other things.</li>
+	                 <li>5. Getting the software to link your printer is the next step. Any device, including computers and smartphones, can be linked to it.
+	                 </li>
+	                 <li>6. By trying to print a document, you can finally verify that your printer is working properly.
+	                 </li>
+	             </ol>
+	             
+	          
+	         </div>
+	     </div>
+	</div>
+	</section>
+	
+	
+		<section  style="padding:80px 0px 60px 0px;background:#fff">
+	<div class="container">
+	     <div class="row" style="">
+	          
+	         <div class="col-md-6">
+	             <h3 style="color:#1662c0;font-size:38px">How Do You Fix a Printer Offline Issue?</h3>
+	            <p style="font-size:18px;text-align:justify;color:#393939">If In the event that your printer has unexpectedly stopped working, checking to see if it is offline should be your priority. It's a common issue, and anyone can fix it at home with the right tools.</p>
+	            
+	             <ol style="font-size:18px;line-height:35px">
+	                 <li>1. Make sure the cable connections are secure first. Verify that the USB cord is snugly and correctly attached.</li>
+	                 <li>2. After that, you'll need to manually connect the printer to the internet.</li>
+	                 <li>3. Also, make sure that there are no pending print tasks. 
+	                 </li>
+	                 <li> 4. Check the drivers; if one of them is corrupted or out of date, your printer can quickly stop working. Make sure you reinstall the updated drivers without delay if this happens.</li>
+	                 <li>5. Try running the Print and Scan Doctor to see if it can fix the printer problems.</li>
+	                 <li>6. Take off the input tray to see if there's a paper jam. Take care when removing a jammed sheet of paper.
+
+	                 </li>
+	             </ol>
+	         </div>
+	         
+	          <div class="col-md-6">
+	              <img src="assets/img/set-5.jpg" alt="Smart Printer Setup" style="padding-top:30px">
+	         </div>
+	         
+	     </div>
+	</div>
+	</section>
+	
+	
+	<section>
+	    <div class="container pb-100 pt-50" >
+	        <div class="row">
+	            <div class="col-md-12">
+	                <h3 class="text-center pt-100 pb-50">Importance of PC Packard IT Support Outsourcing</h3>
+	            </div>
+	        </div>
+	        <div class="row">
+	            <div class="col-md-4">
+	                <div class="text-center shadow p-3">
+	                    <img src="assets/img/ni-1.png" style="width:80px">
+	                <h4>Specialised Remote IT Team</h4>
+	                <p>Highly skilled PC Packard experts provide remote IT support. We resolve issues, answer enquiries, and keep your business productive and secure daily.</p>
+	                </div>
+	            </div>
+	            
+	            <div class="col-md-4">
+	                <div class="text-center shadow p-3">
+	                    <img src="assets/img/ni-2.png" style="width:80px">
+	                <h4>Innovation-Driven Technology</h4>
+	                <p>In order to avoid downtime and speed up resolution times, we employ intelligent, data-driven technologies to identify any problems in their early stages.</p>
+	                </div>
+	            </div>
+	            
+	            
+	            <div class="col-md-4">
+	                <div class="text-center shadow p-3">
+	                    <img src="assets/img/ni-3.png" style="width:80px">
+	                <h4>Hyper Service Automation</h4>
+	                <p>To ensure consistency in quality across all IT processes, increase response speed, and improve accuracy, PC Packard uses intelligent automation.</p>
+	                </div>
+	            </div>
+	            
+	            <div class="col-md-4 mt-4">
+	                <div class="text-center shadow p-3">
+	                    <img src="assets/img/ni-4.png" style="width:80px">
+	                <h4>Fast, Reliable Remote Help</h4>
+	                <p>If your team ever needs assistance, our remote IT specialists are always there to help via phone, email, or live chat.</p>
+	                </div>
+	            </div>
+	            
+	            
+	            <div class="col-md-4 mt-4">
+	                <div class="text-center shadow p-3">
+	                    <img src="assets/img/ni-5.png" style="width:80px">
+	                <h4>Clear and Simple Pricing</h4>
+	                <p>Dependable IT assistance tailored to your company's specific requirements, with transparent, predictable pricing and zero surprises.</p>
+	                </div>
+	            </div>
+	            
+	            
+	            <div class="col-md-4 mt-4">
+	                <div class="text-center shadow p-3">
+	                    <img src="assets/img/ni-6.png" style="width:80px">
+	                <h4>Total Safety Assured</h4>
+	                <p>Our comprehensive security approach includes encryption, testing, monitoring, and IT environment protection for every client.</p>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	</section>
+	
+	<style>
+	    .shadow{
+	         transition: transform 0.3s ease, box-shadow 0.3s ease;
+	    }
+	    
+	     .shadow:hover {
+    transform: translateY(-10px); 
+}
+
+	</style>
+	
+<section  style="padding:80px 0px 60px 0px;background:#fff">
+	<div class="container">
+	     <div class="row" style="">
+	           <div class="col-md-4">
+	              <img src="images/printany.png" alt="Smart Printer Setup">
+	         </div>
+	         <div class="col-md-8">
+	             <h3 style="font-size:32px;color:#1662c0">Print Anywhere and Anytime</h3>
+	             <h4 style="font-size:28px;font-weight:400">Maximize Your Printer with Updated Drivers</h4>
+	            <p style="font-size:18px;text-align:justify;color:#393939">Smart Printer Setup is your all-in-one solution for fast, smooth printing from any desktop, laptop, or mobile device to any printer, no significance the network in between. It is created to cater to homes and organizations of all sizes. Our software delivers centralized management and is ideal for both simple and complex workflows. Via Smart Printer Setup, you acquire the flexibility to operate your printing services on-premise or in the cloud, guaranteeing your printing demands are met now and in the future.</p>
+	             
+	            <p class="pt-3" style="font-size:14px;text-align:justify;color:#393939">PC Packard is a self-dependent solution provider for software products. By downloading Smart Printer Support, you agree to our <a href="privacy-policy.html" style="color:#10add6">Privacy Policy</a>, <a href="terms-condition.html" style="color:#10add6">Terms and Conditions</a> and <a href="eula.html" style="color:#10add6">EULA</a>. Complete access to management features and printer troubleshooting requires an $11.99 monthly subscription, with more premium assistance available via upgrades. All names and trademarks cited are for reference purposes only, and no affiliation is indicated with any third-party companies. Smart Printer Help DOES NOT sell or supply third-party technical support.
+</p>
+	             <button class="mt-1 default-btn book-appoinment jivoButton">CONTACT FOR DOWNLOAD</button>
+	         </div>
+	     </div>
+	</div>
+	</section>
+	
+	
+		<section class="bg-white">
+	    <div class="container  pb-5">
+	        <h3 style="font-size:32px;color:#1662c0;text-align:center" class="pb-3"><span style="color:#000">Smart Printer Setup </span> Plans</h3>
+	        <br><br>
+	         <div class="row">
+	              <div class="col-md-4">
+	                  <div class="text-center box">
+	                      <center><div class="iconm1 box-imgg">
+	                        <img src="images/smart-printer.png" alt="sp-1" class="iconm " >
+	                      </div>
+	                      </center>
+	                      <h4 class="pt-3">Smart Printer Setup</h4>
+	                      <ul class="mb-2">
+	                            <li><span style="color:#165dba">1-Year</span> Subscription</li>
+	                            <li>Plan for <span style="color:#165dba">1-Device</span></li>
+	                            <li>$<span style="color:#165dba">12.99</span> / Month</li>
+	                            <li>Total: $<span style="color:#165dba">155.88</span></li>
+	                            <li style="color:#000">Personalized price offer*</li>
+	                     </ul>
+	                         <button type="button" class="btn btn-lg btn-block" style="width:100%;background:#024ad9;color:#fff" data-bs-toggle="modal" data-bs-target="#contactModal">Contact Us</button>
+	                  </div>
+	              </div>
+	              
+	               <div class="col-md-4">
+	                  <div class="text-center box">
+	                      <center><div class="iconm1 box-imgg">
+	                        <img src="images/smart-printer.png" alt="sp-1" class="iconm " >
+	                      </div>
+	                      </center>
+	                      <h4 class="pt-3"> Smart Printer Setup</h4>
+	                      <ul class="mb-2">
+	                            <li><span style="color:#165dba">2-Year</span> Subscription</li>
+	                            <li>Plan for <span style="color:#165dba">2-Device</span></li>
+	                            <li>$<span style="color:#165dba">12.99</span> / Month</li>
+	                            <li>Total: $<span style="color:#165dba">623.52</span></li>
+	                            <li style="color:#000">Personalized price offer*</li>
+	                     </ul>
+	                     
+	                         <button type="button" class="btn  btn-lg btn-block" style="width:100%;background:#024ad9;color:#fff" data-bs-toggle="modal" data-bs-target="#contactModal">Contact Us</button>
+	                   
+	                  </div>
+	              </div>
+	              
+	               <div class="col-md-4">
+	                  <div class="text-center box">
+	                      <center><div class="iconm1 box-imgg">
+	                        <img src="images/smart-printer.png" alt="sp-1" class="iconm " >
+	                      </div>
+	                      </center>
+	                      <h4 class="pt-3">Smart Printer Setup</h4>
+	                      <ul class="mb-2">
+	                            <li><span style="color:#165dba">5-Year</span> Subscription</li>
+	                            <li>Plan for <span style="color:#165dba">5-Device</span></li>
+	                            <li>$<span style="color:#165dba">12.99</span> / Month</li>
+	                            <li>Total: $<span style="color:#165dba">2338.2</span></li>
+	                            <li style="color:#000">Personalized price offer*</li>
+	                     </ul>
+	                     
+	                         <button type="button" class="btn btn-lg btn-block" style="width:100%;background:#024ad9;color:#fff" data-bs-toggle="modal" data-bs-target="#contactModal">Contact Us</button>
+	                   
+	                  </div>
+	              </div>
+	              
+	         </div>
+	    </div>
+	</section>
+	
+	
+	
+<section class="bg-white pb-4">
+	    <div class="container">
+	         <div class="row">
+	             <div class="col-md-1"></div>
+	              <div class="col-md-2">
+	                  <div class="text-center ">
+	                      <svg xmlns="http://www.w3.org/2000/svg" width="47" height="47" viewBox="0 0 47 47" fill="none">
+  <path d="M23.5 7.64062C27.1587 7.64328 30.7041 8.91048 33.5355 11.2276C36.367 13.5447 38.3105 16.7693 39.0369 20.3552C39.7633 23.9411 39.2278 27.6678 37.5213 30.9042C35.8148 34.1406 33.0421 36.6876 29.6729 38.1139C25.7998 39.7359 21.4416 39.7562 17.5536 38.1704C13.6655 36.5846 10.5648 33.522 8.93088 29.6539C7.29701 25.7859 7.26332 21.4278 8.83718 17.5349C10.411 13.642 13.4641 10.5319 17.3271 8.88613C19.28 8.05996 21.3795 7.63634 23.5 7.64062ZM23.5 6C13.8354 6 6 13.8354 6 23.5C6 33.1646 13.8354 41 23.5 41C33.1646 41 41 33.1646 41 23.5C41 13.8354 33.1646 6 23.5 6Z" fill="#165DBA"/>
+  <path d="M27.3156 30.0871C27.2227 30.326 27.0598 30.5313 26.8483 30.6762C26.6369 30.8211 26.3866 30.8988 26.1303 30.8992H16.305C15.9676 30.8987 15.6443 30.7644 15.4058 30.5258C15.1673 30.2872 15.0332 29.9637 15.0328 29.6264V14.5135C15.0332 14.1761 15.1673 13.8527 15.4058 13.6141C15.6443 13.3755 15.9676 13.2412 16.305 13.2406H26.1303C26.3867 13.241 26.6371 13.3188 26.8486 13.4638C27.0601 13.6089 27.2229 13.8143 27.3156 14.0534C27.505 14.0397 27.6964 14.0322 27.8892 14.0322C28.1693 14.0323 28.4493 14.0469 28.7279 14.076C28.6246 13.4617 28.307 12.904 27.8314 12.5018C27.3559 12.0995 26.7531 11.8788 26.1303 11.8789H16.305C15.6063 11.8791 14.9363 12.1567 14.4423 12.6508C13.9482 13.1448 13.6706 13.8148 13.6704 14.5135V32.4865C13.6706 33.1852 13.9482 33.8552 14.4423 34.3492C14.9363 34.8433 15.6063 35.1209 16.305 35.1211H26.1303C26.8288 35.1207 27.4985 34.843 27.9923 34.349C28.4861 33.8549 28.7635 33.185 28.7635 32.4865V30.0625C28.4727 30.0943 28.1803 30.1103 27.8878 30.1104C27.6964 30.1076 27.505 30.1001 27.3156 30.0871ZM22.2728 33.7573H20.1632C19.9638 33.7573 19.7725 33.6781 19.6315 33.5371C19.4905 33.3961 19.4112 33.2048 19.4112 33.0054C19.4112 32.8059 19.4905 32.6147 19.6315 32.4737C19.7725 32.3326 19.9638 32.2534 20.1632 32.2534H22.2728C22.4722 32.2534 22.6634 32.3326 22.8045 32.4737C22.9455 32.6147 23.0247 32.8059 23.0247 33.0054C23.0247 33.2048 22.9455 33.3961 22.8045 33.5371C22.6634 33.6781 22.4722 33.7573 22.2728 33.7573Z" fill="#165DBA"/>
+  <path d="M27.8893 14.7158C26.4348 14.7158 25.0129 15.1471 23.8035 15.9552C22.5942 16.7633 21.6516 17.9118 21.095 19.2556C20.5383 20.5994 20.3927 22.0781 20.6765 23.5046C20.9602 24.9312 21.6606 26.2416 22.6891 27.2701C23.7176 28.2985 25.028 28.999 26.4545 29.2827C27.8811 29.5665 29.3598 29.4208 30.7036 28.8642C32.0473 28.3076 33.1959 27.365 34.004 26.1556C34.8121 24.9463 35.2434 23.5244 35.2434 22.0699C35.2434 20.1195 34.4686 18.2489 33.0894 16.8698C31.7102 15.4906 29.8397 14.7158 27.8893 14.7158ZM26.9862 17.416C26.9871 17.1963 27.0682 16.9844 27.2142 16.8201C27.3603 16.6559 27.5612 16.5506 27.7794 16.524C27.9975 16.4974 28.2179 16.5514 28.3991 16.6757C28.5803 16.8 28.7099 16.9862 28.7636 17.1993C28.782 17.2714 28.791 17.3457 28.7902 17.4201C28.7902 18.8734 28.7902 20.327 28.7902 21.7808C28.7893 22.0005 28.7083 22.2124 28.5622 22.3766C28.4162 22.5409 28.2153 22.6462 27.9971 22.6727C27.779 22.6993 27.5586 22.6454 27.3774 22.5211C27.1962 22.3968 27.0666 22.2106 27.0129 21.9975C26.9933 21.9077 26.9844 21.8159 26.9862 21.724C26.9862 21.0172 26.9862 20.3104 26.9862 19.6049C26.9862 18.8734 26.9808 18.144 26.9862 17.416ZM28.7978 27.5462C25.9267 28.0726 23.1144 26.0525 22.709 23.165C22.469 21.4561 22.9578 19.9733 24.1384 18.7176C24.377 18.464 24.6709 18.356 25.0134 18.4312C25.1734 18.4599 25.3218 18.5339 25.4413 18.6442C25.5607 18.7545 25.6461 18.8967 25.6874 19.0539C25.7389 19.2111 25.7447 19.3796 25.7042 19.54C25.6636 19.7003 25.5784 19.8459 25.4584 19.9597C24.981 20.4385 24.6557 21.0477 24.5233 21.7108C24.3909 22.3738 24.4574 23.0612 24.7143 23.6867C24.9713 24.3121 25.4073 24.8477 25.9676 25.2262C26.5279 25.6047 27.1875 25.8092 27.8636 25.8141C28.5398 25.8191 29.2023 25.6241 29.768 25.2538C30.3337 24.8835 30.7775 24.3543 31.0435 23.7326C31.3095 23.111 31.3859 22.4246 31.2632 21.7597C31.1404 21.0948 30.824 20.4809 30.3536 19.9952C30.0398 19.6671 29.9633 19.2686 30.1451 18.9076C30.2095 18.7782 30.304 18.6662 30.4207 18.581C30.5374 18.4958 30.6729 18.4398 30.8157 18.4178C30.9586 18.3959 31.1046 18.4085 31.2415 18.4547C31.3784 18.5009 31.5022 18.5794 31.6025 18.6834C32.3337 19.4023 32.8299 20.3258 33.0258 21.3323C33.1661 22.0187 33.1674 22.7263 33.0296 23.4132C32.8917 24.1001 32.6176 24.7524 32.2234 25.3316C31.8292 25.9108 31.3228 26.405 30.7343 26.7852C30.1458 27.1653 29.4871 27.4236 28.7971 27.5448L28.7978 27.5462Z" fill="#165DBA"/>
+</svg>
+	                      <h6 class="pt-2">Immediate<br> Activation</h6>
+	                  </div>
+	              </div>
+	              
+	               <div class="col-md-2">
+	                  <div class="text-center ">
+	                    <svg xmlns="http://www.w3.org/2000/svg" width="47" height="47" viewBox="0 0 47 47" fill="none">
+  <path d="M20.3821 27.4497C24.2234 27.4497 27.3484 24.2734 27.3484 20.3703C27.3484 16.4671 24.2234 13.2907 20.3821 13.2907C16.5418 13.2907 13.4166 16.4671 13.4166 20.3703C13.4167 24.2734 16.5418 27.4497 20.3821 27.4497ZM20.3821 14.3513C23.6477 14.3513 26.3052 17.0511 26.3052 20.3703C26.3052 23.6894 23.6477 26.3891 20.3821 26.3891C17.1164 26.3891 14.4601 23.6894 14.4601 20.3703C14.4601 17.0511 17.1165 14.3513 20.3821 14.3513ZM8.5534 25.1339L8.01851 23.4284C7.98593 23.3237 7.92166 23.2325 7.83615 23.1663L6 21.7539L6.01833 18.794C6.33324 18.5703 6.87733 18.1603 7.86977 17.4146C7.95528 17.3494 8.01955 17.2593 8.0542 17.1557L8.61151 15.4582C8.64513 15.3538 8.64714 15.2419 8.61559 15.1363L7.94718 12.8972L9.66815 10.5225L11.9699 10.5059C12.0769 10.5051 12.1818 10.4707 12.2695 10.4066L13.7032 9.36368C13.7908 9.30061 13.857 9.20941 13.8926 9.10584L14.6436 6.89487L17.4089 6L19.2786 7.36596C19.3662 7.4303 19.4713 7.4644 19.5792 7.46545L21.3429 7.47888C21.4336 7.4748 21.5579 7.44668 21.6466 7.38255L23.5337 6.03727L26.2878 6.96834L27.0102 9.19078C27.0437 9.29435 27.1091 9.38534 27.1967 9.45052L28.616 10.5122C28.7027 10.5774 28.8076 10.6136 28.9155 10.6158L31.2202 10.6582L32.9108 13.0546L32.2127 15.2865C32.1802 15.3911 32.1802 15.5027 32.2127 15.6074L32.7467 17.3131C32.7792 17.4178 32.8433 17.5087 32.9289 17.5751L34.7661 18.9876L34.7468 21.936L32.8964 23.3259C32.8099 23.3911 32.7457 23.4812 32.7109 23.5848L32.1537 25.2831C32.1201 25.3878 32.118 25.4996 32.1496 25.6053L32.8179 27.8442L31.0971 30.219L28.7951 30.2354C28.6883 30.2365 28.5834 30.2708 28.4958 30.3349L27.0632 31.3778C26.9755 31.4419 26.9091 31.5321 26.8737 31.6357L26.1226 33.8466L23.3563 34.7415L21.4866 33.3755C21.399 33.3112 21.2941 33.2771 21.1861 33.276C21.1861 33.276 19.4223 33.2637 19.4183 33.2637C19.3112 33.2637 19.2064 33.2967 19.1187 33.3599L17.2317 34.7042L14.4776 33.7741L13.7551 31.5506C13.7216 31.447 13.6563 31.356 13.5686 31.2906L12.1493 30.2291C12.0627 30.1639 11.9576 30.1277 11.8497 30.1256L9.54598 30.0831L7.85552 27.6857L8.55347 25.4548C8.58605 25.3504 8.58605 25.2386 8.5534 25.1339ZM20.3821 29.8471C25.5224 29.8471 29.7052 25.5958 29.7052 20.3702C29.7052 15.1455 25.5224 10.8943 20.3821 10.8943C15.2415 10.8943 11.0589 15.1455 11.0589 20.3702C11.0589 25.5958 15.2416 29.8471 20.3821 29.8471ZM20.3821 11.9548C24.9479 11.9548 28.6618 15.7296 28.6618 20.3703C28.6618 25.0109 24.9479 28.7867 20.3821 28.7867C15.8163 28.7867 12.1024 25.0108 12.1024 20.3702C12.1024 15.7296 15.8163 11.9548 20.3821 11.9548ZM35.2309 36.1302C31.5068 39.9154 26.5557 42 21.29 42C18.1955 42 15.0928 41.2337 12.3184 39.7838C12.2429 39.7434 12.1614 39.7246 12.0799 39.7246C11.9331 39.7246 11.7886 39.7879 11.6867 39.906L10.3436 41.4688L8.53002 36.53L13.5901 37.6898L13.0296 38.3412C12.9225 38.4665 12.8788 38.6342 12.9113 38.7968C12.945 38.9595 13.0499 39.0961 13.1967 39.1686C15.7104 40.3947 18.5165 41.0442 21.3145 41.0442C26.3235 41.0442 31.0329 39.0621 34.5748 35.4631C38.1194 31.8593 40.0718 27.0685 40.0718 21.9744C40.0718 16.8791 38.1194 12.0883 34.5748 8.48541L34.2465 8.15198L34.9027 7.48507L35.2309 7.81849C38.9508 11.5985 41 16.6264 41 21.9744C40.9999 27.3212 38.9508 32.3492 35.2309 36.1302ZM20.689 22.2536C19.8789 22.3408 19.3834 21.8102 19.2322 21.7009C19.1305 21.6275 18.7866 21.4368 18.4646 21.7736C18.1042 22.1506 18.3612 22.4419 18.4346 22.5407C18.5079 22.6395 19.1019 23.1823 20.0376 23.355L20.0745 23.8403C20.0745 23.8403 20.0982 24.2695 20.6649 24.22C21.2129 24.1723 21.2195 23.7427 21.2195 23.7427L21.1856 23.3064C21.7017 23.1527 22.1171 22.8176 22.3276 22.3533C22.5706 21.8279 22.5552 21.2582 22.2009 20.7802C21.79 20.2253 21.2009 20.0292 20.7349 19.8985C20.3697 19.795 20.0591 19.7085 19.7797 19.4537C19.6363 19.3211 19.5545 19.1661 19.574 18.9643C19.5911 18.7763 19.6955 18.6207 19.8836 18.5057C20.3736 18.2016 21.271 18.648 21.5459 18.8277C21.5459 18.8277 22.0068 19.1747 22.3545 18.6964C22.6671 18.2661 22.272 17.9295 22.1689 17.8491C22.066 17.7686 21.4334 17.3781 20.6818 17.265L20.644 16.7559C20.644 16.7559 20.6055 16.3122 20.04 16.3592C19.4686 16.407 19.4997 16.8554 19.4997 16.8554L19.5406 17.3797C19.4554 17.4154 19.3689 17.4578 19.2879 17.5092C18.7861 17.8202 18.483 18.2975 18.4318 18.857C18.3801 19.4262 18.5987 19.9452 19.0134 20.3221C19.4955 20.758 20.0121 20.9065 20.429 21.0206C20.8537 21.1395 21.4541 21.326 21.346 21.8406C21.2918 22.0997 20.9857 22.2239 20.689 22.2536Z" fill="#165DBA"/>
+</svg>
+	                      <h6 class="pt-2">30-day money-back guarantee</h6>
+	                  </div>
+	              </div>
+	              
+	               <div class="col-md-2">
+	                  <div class="text-center ">
+	                     <svg xmlns="http://www.w3.org/2000/svg" width="47" height="47" viewBox="0 0 47 47" fill="none">
+  <path d="M37.2299 19.43H32.19C32.7166 18.31 33.0099 17.0567 33.0099 15.7367C33.0099 10.92 29.0933 7 24.2733 7C19.4566 7 15.5366 10.92 15.5366 15.7367C15.5366 17.0567 15.8333 18.31 16.3599 19.43H11.32C10.04 19.43 9 20.4734 9 21.75V38.68C9 39.9567 10.04 41 11.32 41H37.23C38.5067 41 39.55 39.9567 39.55 38.68V21.75C39.55 20.4733 38.5066 19.43 37.2299 19.43ZM16.2033 15.7367C16.2033 11.2866 19.8233 7.66664 24.2733 7.66664C28.7233 7.66664 32.3433 11.2866 32.3433 15.7367C32.3433 20.1866 28.7233 23.81 24.2733 23.81C19.8233 23.81 16.2033 20.1866 16.2033 15.7367ZM38.8833 38.6799C38.8833 39.59 38.14 40.3333 37.23 40.3333H11.32C10.41 40.3333 9.66671 39.59 9.66671 38.6799V29.91H38.8834V38.6799H38.8833ZM38.8833 25.0033H9.66664V21.75C9.66664 20.84 10.41 20.0966 11.3199 20.0966H16.7099C18.2199 22.7133 21.0433 24.4766 24.2733 24.4766C27.5032 24.4766 30.3299 22.7133 31.8399 20.0966H37.2299C38.1398 20.0966 38.8832 20.8399 38.8832 21.75V25.0033H38.8833Z" fill="#165DBA"/>
+  <path d="M18.2868 33.8984H14.3935C13.2933 33.8984 12.3984 34.7933 12.3984 35.8935C12.3984 36.9937 13.2933 37.8886 14.3935 37.8886H18.2868C19.3871 37.8886 20.2819 36.9937 20.2819 35.8935C20.2819 34.7933 19.387 33.8984 18.2868 33.8984ZM18.2868 37.2221H14.3935C13.6611 37.2221 13.0651 36.6261 13.0651 35.8936C13.0651 35.1611 13.6611 34.5651 14.3935 34.5651H18.2868C19.0192 34.5651 19.6152 35.1611 19.6152 35.8936C19.6152 36.6261 19.0192 37.2221 18.2868 37.2221Z" fill="#165DBA"/>
+  <path d="M35.5198 34.2168H31.3441C31.1598 34.2168 31.0107 34.3659 31.0107 34.5501C31.0107 34.7344 31.1598 34.8834 31.3441 34.8834H35.5198C35.7041 34.8834 35.8531 34.7344 35.8531 34.5501C35.8531 34.3659 35.7041 34.2168 35.5198 34.2168Z" fill="#165DBA"/>
+  <path d="M35.5188 36.9043H31.3431C31.1588 36.9043 31.0098 37.0534 31.0098 37.2376C31.0098 37.4219 31.1588 37.5709 31.3431 37.5709H35.5188C35.7031 37.5709 35.8522 37.4219 35.8522 37.2376C35.8522 37.0534 35.7031 36.9043 35.5188 36.9043Z" fill="#165DBA"/>
+  <path d="M28.4931 17.4296C29.1897 18.1263 29.1897 19.2596 28.4931 19.9563C27.7931 20.653 26.6631 20.653 25.9664 19.9563L24.2731 18.2629L22.5831 19.9563C21.8864 20.653 20.7564 20.653 20.0564 19.9563C19.3598 19.2596 19.3598 18.1263 20.0564 17.4296L21.7498 15.7396L20.0564 14.0463C19.3598 13.3529 19.3565 12.223 20.0564 11.5196C20.7531 10.8229 21.8864 10.8229 22.5831 11.5196L24.2731 13.2129L25.9664 11.5196C26.6631 10.8229 27.7964 10.8229 28.4931 11.5196C29.1931 12.2229 29.1897 13.3529 28.4897 14.0463L26.7997 15.7396L28.4931 17.4296Z" fill="#165DBA"/>
+</svg>
+	                      <h6 class="pt-2">Effortless subscription cancellation</h6>
+	                  </div>
+	              </div>
+	                <div class="col-md-2">
+	                  <div class="text-center ">
+	                     <svg xmlns="http://www.w3.org/2000/svg" width="47" height="47" viewBox="0 0 47 47" fill="none">
+  <path d="M34.4165 22.0611H35.2826V32.574H34.4165C33.9474 32.574 33.5648 32.1846 33.5648 31.7073V22.9278C33.5648 22.4505 33.9473 22.0611 34.4165 22.0611ZM36.643 33.7356C36.643 35.199 35.4638 36.3989 34.0257 36.3989H26.4947C26.2713 35.4893 25.463 34.8154 24.4999 34.8154C23.3644 34.8154 22.4439 35.7523 22.4439 36.9077C22.4439 38.0633 23.3645 39 24.4999 39C25.4629 39 26.2713 38.3261 26.4947 37.4165H34.0257C36.0158 37.4165 37.643 35.7607 37.643 33.7356V33.2583C37.3305 33.401 36.9955 33.5018 36.643 33.5529V33.7356ZM22.4632 30.2179C22.0103 30.027 21.5165 30.1269 21.1698 30.4797L20.5967 31.0629C20.4236 31.239 20.1403 31.239 19.9673 31.0629L18.7523 29.8266C18.5792 29.6504 18.5792 29.3622 18.7523 29.1861L19.3255 28.6028C19.6721 28.2501 19.7703 27.7476 19.5827 27.2867C19.3951 26.8258 18.9765 26.5411 18.4863 26.5411H17.6757C17.4309 26.5411 17.2307 26.3373 17.2307 26.0882V24.3397C17.2307 24.0906 17.4309 23.8868 17.6757 23.8868H18.4863C18.9765 23.8868 19.3951 23.6022 19.5828 23.1412C19.7704 22.6803 19.6722 22.1778 19.3255 21.8251L18.7524 21.2418C18.5793 21.0657 18.5793 20.7775 18.7524 20.6013L19.9673 19.365C20.1404 19.1889 20.4237 19.1889 20.5967 19.365L21.1699 19.9482C21.5165 20.301 22.0103 20.4009 22.4633 20.21C22.9162 20.0191 23.1959 19.5931 23.1959 19.0942V18.2695C23.1959 18.0203 23.3962 17.8165 23.641 17.8165H25.3591C25.6039 17.8165 25.8042 18.0203 25.8042 18.2695V19.0943C25.8042 19.5932 26.0839 20.0192 26.5369 20.2101C26.9898 20.401 27.4836 20.3011 27.8303 19.9483L28.4035 19.3651C28.5765 19.189 28.8598 19.189 29.0329 19.3651L30.2478 20.6014C30.4209 20.7775 30.4209 21.0658 30.2478 21.2419L29.6747 21.8251C29.328 22.1779 29.2298 22.6804 29.4174 23.1413C29.605 23.6022 30.0237 23.8869 30.5139 23.8869H31.3244C31.5692 23.8869 31.7695 24.0907 31.7695 24.3398V26.0883C31.7695 26.3374 31.5692 26.5412 31.3244 26.5412H30.5139C30.0236 26.5412 29.605 26.8258 29.4174 27.2867C29.2298 27.7476 29.328 28.2501 29.6747 28.6029L30.2478 29.1861C30.4209 29.3623 30.4209 29.6505 30.2478 29.8266L29.0329 31.063C28.8598 31.2391 28.5765 31.2391 28.4035 31.063L27.8303 30.4797C27.4836 30.127 26.9898 30.027 26.5369 30.2179C26.0839 30.4088 25.8042 30.8348 25.8042 31.3337V32.1585C25.8042 32.4076 25.6039 32.6114 25.3591 32.6114H23.641C23.3962 32.6114 23.1959 32.4076 23.1959 32.1585V31.3337C23.1959 30.8347 22.9161 30.4088 22.4632 30.2179ZM24.5 28.6178C26.3473 28.6178 27.8449 27.0939 27.8449 25.2139C27.8449 23.334 26.3473 21.8101 24.5 21.8101C22.6527 21.8101 21.1551 23.334 21.1551 25.2139C21.1551 27.0939 22.6527 28.6178 24.5 28.6178ZM36.2825 22.0671V32.5681C37.8148 32.4681 39.0402 31.0694 39.0402 29.3736V25.2616C39.0401 23.5658 37.8149 22.1671 36.2825 22.0671ZM24.5 27.9314C24.2239 27.9314 24 27.7036 24 27.4226V27.2715C23.5121 27.0654 23.1893 26.5796 23.1893 26.039C23.1893 25.758 23.4132 25.5302 23.6893 25.5302C23.7112 25.5302 23.7328 25.5316 23.7539 25.5344C23.3588 25.2936 23.1137 24.8604 23.1137 24.3892C23.1137 23.819 23.4727 23.312 23.9999 23.1275V23.0055C23.9999 22.7245 24.2238 22.4967 24.4999 22.4967C24.7761 22.4967 24.9999 22.7245 24.9999 23.0055V23.1566C25.4879 23.3627 25.8105 23.8487 25.8105 24.3892C25.8105 24.6702 25.5867 24.898 25.3105 24.898C25.2886 24.898 25.267 24.8966 25.2459 24.8938C25.6411 25.1345 25.8861 25.5677 25.8861 26.039C25.8861 26.6092 25.5271 27.1162 24.9999 27.3007V27.4227C25 27.7036 24.7761 27.9314 24.5 27.9314ZM24.1138 24.3891C24.1138 24.5619 24.2546 24.7052 24.4244 24.7052H24.5755C24.7163 24.7052 24.8521 24.728 24.9793 24.7702C24.8759 24.677 24.8106 24.5408 24.8106 24.3891C24.8106 24.2163 24.6699 24.073 24.5 24.073H24.4244C24.2546 24.073 24.1138 24.2163 24.1138 24.3891ZM24.8862 26.0389C24.8862 25.8661 24.7454 25.7229 24.5756 25.7229H24.4245C24.2837 25.7229 24.148 25.7001 24.0207 25.6579C24.1242 25.7512 24.1895 25.8873 24.1895 26.039C24.1895 26.2118 24.3303 26.3551 24.5001 26.3551H24.5756C24.7454 26.355 24.8862 26.2117 24.8862 26.0389ZM40.0219 24.862C40.0338 24.994 40.0401 25.1273 40.0401 25.2615V29.3736C40.0401 29.5078 40.0338 29.6411 40.0219 29.7732C40.5908 29.5626 41 29.0057 41 28.3562V26.279C41 25.6295 40.5909 25.0726 40.0219 24.862ZM8.97813 24.862C8.4092 25.0727 8 25.6295 8 26.279V28.3562C8 29.0057 8.4092 29.5626 8.97813 29.7732C8.9662 29.6411 8.95993 29.5079 8.95993 29.3736V25.2616C8.95987 25.1274 8.96613 24.994 8.97813 24.862ZM9.95987 25.2615V29.3736C9.95987 31.0695 11.1852 32.468 12.7175 32.568V22.0671C11.1851 22.1671 9.95987 23.5657 9.95987 25.2615ZM36.1603 20.8658V21.0444C36.8886 21.0546 37.5567 21.2736 38.1257 21.6417V20.8658C38.1257 13.2376 31.9961 7 24.5 7C17.0038 7 10.8743 13.2376 10.8743 20.8658V21.6417C11.4433 21.2736 12.1113 21.0546 12.8397 21.0444V20.8658C12.8397 14.3416 18.0887 9.00002 24.5 9.00002C30.9112 9.00002 36.1603 14.3417 36.1603 20.8658ZM14.5835 22.0611H13.7174V32.574H14.5835C15.0525 32.574 15.4351 32.1846 15.4351 31.7073V22.9278C15.4351 22.4505 15.0526 22.0611 14.5835 22.0611Z" fill="#165DBA"/>
+</svg>
+	                      <h6 class="pt-2">24*7 Technical and Sales Help</h6>
+	                  </div>
+	              </div>
+	                <div class="col-md-2">
+	                  <div class="text-center ">
+	                      <svg xmlns="http://www.w3.org/2000/svg" width="47" height="47" viewBox="0 0 47 47" fill="none">
+  <path d="M34.3214 17.6123V17.0052C34.3214 16.2 34.0016 15.4279 33.4323 14.8586C32.863 14.2893 32.0908 13.9694 31.2857 13.9694C30.4806 13.9694 29.7084 14.2893 29.1391 14.8586C28.5698 15.4279 28.25 16.2 28.25 17.0052V17.6123C27.7669 17.6123 27.3036 17.8042 26.9621 18.1458C26.6205 18.4874 26.4286 18.9507 26.4286 19.4337V22.4694C26.4286 23.7576 26.9403 24.9931 27.8512 25.904C28.7621 26.8149 29.9975 27.3266 31.2857 27.3266C32.5739 27.3266 33.8093 26.8149 34.7202 25.904C35.6311 24.9931 36.1429 23.7576 36.1429 22.4694V19.4337C36.1429 18.9507 35.951 18.4874 35.6094 18.1458C35.2678 17.8042 34.8045 17.6123 34.3214 17.6123ZM29.4643 17.0052C29.4643 16.5221 29.6562 16.0588 29.9978 15.7172C30.3394 15.3756 30.8026 15.1837 31.2857 15.1837C31.7688 15.1837 32.2321 15.3756 32.5737 15.7172C32.9152 16.0588 33.1071 16.5221 33.1071 17.0052V17.6123H29.4643V17.0052ZM34.9286 22.4694C34.9286 23.4356 34.5448 24.3622 33.8616 25.0453C33.1784 25.7285 32.2519 26.1123 31.2857 26.1123C30.3196 26.1123 29.393 25.7285 28.7098 25.0453C28.0267 24.3622 27.6429 23.4356 27.6429 22.4694V19.4337C27.6429 19.2727 27.7068 19.1183 27.8207 19.0044C27.9345 18.8906 28.089 18.8266 28.25 18.8266H34.3214C34.4825 18.8266 34.6369 18.8906 34.7507 19.0044C34.8646 19.1183 34.9286 19.2727 34.9286 19.4337V22.4694ZM31.2857 20.648C30.9255 20.648 30.5733 20.7548 30.2738 20.955C29.9743 21.1551 29.7408 21.4396 29.6029 21.7724C29.4651 22.1052 29.429 22.4715 29.4993 22.8248C29.5696 23.1781 29.743 23.5027 29.9978 23.7574C30.2525 24.0121 30.577 24.1856 30.9304 24.2559C31.2837 24.3262 31.6499 24.2901 31.9827 24.1522C32.3156 24.0144 32.6 23.7809 32.8002 23.4814C33.0003 23.1818 33.1071 22.8297 33.1071 22.4694C33.1071 21.9864 32.9152 21.5231 32.5737 21.1815C32.2321 20.8399 31.7688 20.648 31.2857 20.648ZM41 20.648C40.9832 18.1885 40.0341 15.8269 38.3442 14.0398C36.6542 12.2527 34.3493 11.1732 31.8946 11.0191C29.4398 10.865 27.018 11.6478 25.1178 13.2095C23.2177 14.7712 21.9807 16.9956 21.6564 19.4337H10.0357C9.23059 19.4337 8.45845 19.7536 7.88914 20.3229C7.31983 20.8922 7 21.6643 7 22.4694V32.1837C7.00092 32.8923 7.2497 33.5783 7.70322 34.1227C8.15675 34.6672 8.78645 35.0358 9.48321 35.1648C9.61218 35.8616 9.98083 36.4913 10.5253 36.9448C11.0697 37.3983 11.7557 37.6471 12.4643 37.648H29.4643C30.2694 37.648 31.0416 37.3282 31.6109 36.7589C32.1802 36.1896 32.5 35.4174 32.5 34.6123V30.2773C34.846 29.9817 37.0037 28.8406 38.5685 27.0679C40.1333 25.2952 40.9979 23.0126 41 20.648ZM10.0357 20.648H21.5714C21.5741 21.2593 21.6331 21.869 21.7475 22.4694H8.21429C8.21429 21.9864 8.40619 21.5231 8.74777 21.1815C9.08935 20.8399 9.55264 20.648 10.0357 20.648ZM8.21429 32.1837V26.1123H23.2593C24.5874 28.0569 26.5767 29.4529 28.8571 30.0405V32.1837C28.8571 32.6668 28.6652 33.1301 28.3237 33.4717C27.9821 33.8133 27.5188 34.0052 27.0357 34.0052H10.0357C9.55264 34.0052 9.08935 33.8133 8.74777 33.4717C8.40619 33.1301 8.21429 32.6668 8.21429 32.1837ZM31.2857 29.148C29.6046 29.148 27.9612 28.6495 26.5634 27.7155C25.1655 26.7815 24.0761 25.454 23.4327 23.9008C22.7894 22.3477 22.6211 20.6386 22.949 18.9898C23.277 17.3409 24.0866 15.8264 25.2753 14.6376C26.4641 13.4489 27.9786 12.6393 29.6274 12.3113C31.2763 11.9834 32.9854 12.1517 34.5385 12.795C36.0917 13.4384 37.4192 14.5279 38.3532 15.9257C39.2872 17.3235 39.7857 18.9669 39.7857 20.648C39.7857 22.9024 38.8902 25.0644 37.2961 26.6584C35.7021 28.2525 33.5401 29.148 31.2857 29.148ZM12.4643 32.7909H13.6786C14.1616 32.7909 14.6249 32.599 14.9665 32.2574C15.3081 31.9158 15.5 31.4525 15.5 30.9694V29.7552C15.5 29.2721 15.3081 28.8088 14.9665 28.4672C14.6249 28.1256 14.1616 27.9337 13.6786 27.9337H12.4643C11.9812 27.9337 11.5179 28.1256 11.1763 28.4672C10.8348 28.8088 10.6429 29.2721 10.6429 29.7552V30.9694C10.6429 31.4525 10.8348 31.9158 11.1763 32.2574C11.5179 32.599 11.9812 32.7909 12.4643 32.7909Z" fill="#165DBA"/>
+</svg>
+	                      <h6 class="pt-2">Protected payment encryption</h6>
+	                  </div>
+	              </div>
+	              
+	         </div>
+	    </div>
+	</section>
+	
+		<section  style="background:#f5f5f5">
+	    <div class="container pt-5 pb-5">
+	         <h3 style="font-size:32px;color:#1662c0;text-align:center" class="pb-3"><span style="color:#000">Class-Leading  </span> Elements</h3>
+	         <div class="row">
+	              <div class="col-md-4">
+	                  <div class="text-center box">
+	                      <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <path d="M14.4458 23.251H50.1275C50.7072 23.251 51.2336 23.4876 51.6148 23.8687C51.9959 24.2498 52.2324 24.7762 52.2324 25.356V39.2179C52.2324 39.7976 51.9959 40.3241 51.6148 40.7052C51.2336 41.0863 50.7072 41.3229 50.1275 41.3229H14.4458C13.8661 41.3229 13.3396 41.0863 12.9585 40.7052C12.5774 40.3241 12.3408 39.7976 12.3408 39.2179V25.356C12.3408 24.7762 12.5774 24.2498 12.9585 23.8687C13.3396 23.4876 13.8661 23.251 14.4458 23.251ZM50.1275 24.8939H14.4458C14.3196 24.8939 14.2042 24.9462 14.1201 25.0303C14.036 25.1144 13.9838 25.2297 13.9838 25.356V39.2179C13.9838 39.3441 14.036 39.4595 14.1201 39.5436C14.2042 39.6277 14.3196 39.6799 14.4458 39.6799H50.1275C50.2537 39.6799 50.3691 39.6277 50.4532 39.5436C50.5373 39.4595 50.5895 39.3441 50.5895 39.2179V25.356C50.5895 25.2297 50.5373 25.1144 50.4532 25.0303C50.3691 24.9462 50.2537 24.8939 50.1275 24.8939Z" fill="#F28822"/>
+  <path d="M21.2658 12.5723H43.308H44.1295V13.3937V24.0726V24.8941H43.308H21.2658H20.4443V24.0726V13.3937V12.5723H21.2658ZM42.4866 14.2152H22.0873V23.2511H42.4866V14.2152ZM44.1295 40.5016V51.1804V52.0019H43.3081H21.2659H20.4444V51.1804V40.5016V39.6801H21.2659H43.3081H44.1295V40.5016ZM42.4866 50.3589V41.323H22.0873V50.3589H42.4866Z" fill="#F28822"/>
+  <path d="M45.0217 30.644C45.7022 30.644 46.2539 30.0924 46.2539 29.4119C46.2539 28.7313 45.7022 28.1797 45.0217 28.1797C44.3412 28.1797 43.7896 28.7313 43.7896 29.4119C43.7896 30.0924 44.3412 30.644 45.0217 30.644Z" fill="#F28822"/>
+  <path d="M41.1096 30.644C41.7901 30.644 42.3418 30.0924 42.3418 29.4119C42.3418 28.7313 41.7901 28.1797 41.1096 28.1797C40.4291 28.1797 39.8774 28.7313 39.8774 29.4119C39.8774 30.0924 40.4291 30.644 41.1096 30.644Z" fill="#F28822"/>
+  <path d="M24.0718 16.6787H40.5007V18.3217H24.0718V16.6787Z" fill="#F28822"/>
+  <path d="M24.0718 19.9658H40.5007V21.6088H24.0718V19.9658Z" fill="#F28822"/>
+</svg>
+	                      <h4>Printer and Device Agnostic</h4>
+	                      <p>We support all varieties of leading printer devices and manufacturers, and are definitive for BYOD setting environments.</p>
+	                  </div>
+	              </div>
+	              
+	               <div class="col-md-4">
+	                  <div class="text-center box">
+	                      <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <path d="M31.3336 15.3333H34.667C35.035 15.3333 35.3336 15.0346 35.3336 14.6666C35.3336 14.2987 35.035 14 34.667 14H31.3336C30.9657 14 30.667 14.2987 30.667 14.6666C30.6669 15.0346 30.9656 15.3333 31.3336 15.3333Z" fill="#F28822"/>
+  <path d="M28.6666 15.3333H29.3333C29.7012 15.3333 29.9999 15.0346 29.9999 14.6666C29.9999 14.2987 29.7012 14 29.3333 14H28.6666C28.2987 14 28 14.2987 28 14.6666C28 15.0346 28.2987 15.3333 28.6666 15.3333Z" fill="#F28822"/>
+  <path d="M46 25.3334H51.3334C51.702 25.3334 52 25.0347 52 24.6667V19.3334C52 18.9654 51.702 18.6667 51.3334 18.6667H46C45.6313 18.6667 45.3334 18.9654 45.3334 19.3334V21.6277L43.3336 22.8583V14.6407C43.3336 13.1847 42.1489 12 40.6923 12H23.3076C21.8509 12 20.6669 13.1847 20.6669 14.6407V16.6614C20.6669 16.6632 20.6666 16.6649 20.6666 16.6667C20.6666 16.6685 20.6669 16.6702 20.6669 16.672V22.8587L18.6666 21.6277V19.3334C18.6666 18.9654 18.368 18.6667 18 18.6667H12.6666C12.2987 18.6666 12 18.9653 12 19.3334V24.6667C12 25.0347 12.2987 25.3334 12.6666 25.3334H18C18.368 25.3334 18.6666 25.0347 18.6666 24.6667V23.193L20.6669 24.4239V39.9425L18.6666 41.3713V40C18.6666 39.632 18.368 39.3334 18 39.3334H12.6666C12.2987 39.3334 12 39.632 12 40V45.3334C12 45.7013 12.2987 46 12.6666 46H18C18.368 46 18.6666 45.7013 18.6666 45.3334V43.0099L20.6669 41.5812V45.9948C20.6669 45.9966 20.6666 45.9983 20.6666 46.0001C20.6666 46.0019 20.6669 46.0036 20.6669 46.0054V49.3594C20.6669 50.8154 21.8509 52 23.3076 52H40.6923C42.1489 52 43.3336 50.8153 43.3336 49.3594V41.5815L45.3334 43.0098V45.3333C45.3334 45.7012 45.6313 45.9999 46 45.9999H51.3334C51.702 45.9999 52 45.7012 52 45.3333V40C52 39.632 51.702 39.3334 51.3334 39.3334H46C45.6313 39.3334 45.3334 39.632 45.3334 40V41.3712L43.3336 39.9428V24.4235L45.3334 23.1929V24.6666C45.3334 25.0347 45.6313 25.3334 46 25.3334ZM17.3334 24H13.3334V20H17.3334V24ZM17.3334 44.6666H13.3334V40.6666H17.3334V44.6666ZM46.6666 40.6666H50.6666V44.6666H46.6666V40.6666ZM23.3076 13.3334H40.6923C41.4136 13.3334 42.0002 13.92 42.0002 14.6407V16H22.0002V14.6407C22.0002 13.92 22.5863 13.3334 23.3076 13.3334ZM22.0002 17.3334H42.0002V23.6788L37.4766 26.4625C36.1325 24.9527 34.1755 24 32 24C29.8245 24 27.8675 24.9527 26.5233 26.4625L22.0002 23.6791V17.3334ZM32 37.3334C28.692 37.3334 26 34.6413 26 31.3334C26 28.0254 28.692 25.3334 32 25.3334C35.308 25.3334 38 28.0254 38 31.3334C38 34.6413 35.308 37.3334 32 37.3334ZM22.0002 25.2444L25.7273 27.538C25.0545 28.6459 24.6666 29.9452 24.6666 31.3333C24.6666 33.0709 25.2746 34.669 26.2884 35.927L22.0002 38.99V25.2444ZM22.0002 49.3594V46.6667H30.2388C29.6841 47.1557 29.3333 47.8707 29.3333 48.6667C29.3333 49.4627 29.6841 50.1777 30.2388 50.6667H23.3076C22.5863 50.6666 22.0002 50.08 22.0002 49.3594ZM32 50C31.2647 50 30.6666 49.402 30.6666 48.6666C30.6666 47.9313 31.2646 47.3333 32 47.3333C32.7353 47.3333 33.3334 47.9313 33.3334 48.6666C33.3334 49.402 32.7353 50 32 50ZM40.6923 50.6666H33.7612C34.3159 50.1777 34.6667 49.4627 34.6667 48.6666C34.6667 47.8706 34.3159 47.1556 33.7612 46.6666H42.0003V49.3594C42.0002 50.08 41.4136 50.6666 40.6923 50.6666ZM42.0002 45.3334H22.0002V40.6287L27.2266 36.8956C28.5103 37.9989 30.1786 38.6667 31.9999 38.6667C33.8212 38.6667 35.4895 37.9989 36.7733 36.8956L42.0002 40.6291L42.0002 45.3334ZM42.0002 38.9904L37.7115 35.927C38.7253 34.669 39.3333 33.0709 39.3333 31.3334C39.3333 29.9452 38.9455 28.6459 38.2726 27.538L42.0002 25.2441V38.9904ZM46.6666 20H50.6666V24H46.6666V20Z" fill="#F28822"/>
+  <path d="M31.1378 28.1955C30.8771 27.9348 30.4558 27.9348 30.1952 28.1955L27.5285 30.8622C27.2678 31.1229 27.2678 31.5442 27.5285 31.8048L30.1952 34.4715C30.3252 34.6015 30.4959 34.6668 30.6665 34.6668C30.8372 34.6668 31.0078 34.6015 31.1378 34.4715C31.3985 34.2108 31.3985 33.7894 31.1378 33.5288L28.9425 31.3335L31.1378 29.1382C31.3985 28.8776 31.3985 28.4562 31.1378 28.1955Z" fill="#F28822"/>
+  <path d="M36.4713 30.8622L33.8047 28.1955C33.5441 27.9348 33.1227 27.9348 32.862 28.1955C32.6013 28.4562 32.6013 28.8776 32.862 29.1382L35.0573 31.3335L32.862 33.5288C32.6013 33.7894 32.6013 34.2108 32.862 34.4715C32.992 34.6015 33.1627 34.6668 33.3334 34.6668C33.5041 34.6668 33.6747 34.6015 33.8047 34.4715L36.4713 31.8048C36.732 31.5442 36.732 31.1229 36.4713 30.8622Z" fill="#F28822"/>
+</svg>
+	                      <h4>Robust Mobile Apps</h4>
+	                      <p>Our Desktop application is safe, permitting users to print to public or private printers, which is based on geolocation and authentication.</p>
+	                  </div>
+	              </div>
+	              
+	               <div class="col-md-4">
+	                  <div class="text-center box">
+	                      <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <path d="M30.6887 25.293C29.9819 25.293 29.4062 25.8687 29.4062 26.5755C29.4062 27.2823 29.9819 27.8572 30.6887 27.8572C31.3955 27.8572 31.9705 27.2823 31.9705 26.5755C31.9705 25.8687 31.3955 25.293 30.6887 25.293ZM30.6887 26.8C30.5644 26.8 30.4634 26.699 30.4634 26.5755C30.4634 26.4511 30.5644 26.3502 30.6887 26.3502C30.8123 26.3502 30.9133 26.4511 30.9133 26.5755C30.9133 26.699 30.8123 26.8 30.6887 26.8Z" fill="#F28822"/>
+  <path d="M30.63 29.6328C29.9548 29.6328 29.4062 30.1821 29.4062 30.8558C29.4062 31.5294 29.9556 32.0795 30.63 32.0795C31.3044 32.0795 31.8529 31.5302 31.8529 30.8558C31.8529 30.1814 31.3036 29.6328 30.63 29.6328ZM30.63 31.1399C30.4732 31.1399 30.3459 31.0125 30.3459 30.8558C30.3459 30.699 30.4732 30.5725 30.63 30.5725C30.7867 30.5725 30.9133 30.6998 30.9133 30.8558C30.9133 31.0118 30.7859 31.1399 30.63 31.1399Z" fill="#F28822"/>
+  <path d="M33.9703 29.6328C33.2951 29.6328 32.7466 30.1821 32.7466 30.8558C32.7466 31.5294 33.2959 32.0795 33.9703 32.0795C34.6447 32.0795 35.1933 31.5302 35.1933 30.8558C35.1933 30.1814 34.6439 29.6328 33.9703 29.6328ZM33.9703 31.1399C33.8136 31.1399 33.6862 31.0125 33.6862 30.8558C33.6862 30.699 33.8136 30.5725 33.9703 30.5725C34.127 30.5725 34.2536 30.6998 34.2536 30.8558C34.2536 31.0118 34.1263 31.1399 33.9703 31.1399Z" fill="#F28822"/>
+  <path d="M37.3094 29.6328C36.635 29.6328 36.0864 30.1821 36.0864 30.8558C36.0864 31.5294 36.6357 32.0795 37.3094 32.0795C37.983 32.0795 38.5324 31.5302 38.5324 30.8558C38.5324 30.1814 37.983 29.6328 37.3094 29.6328ZM37.3094 31.1399C37.1527 31.1399 37.0253 31.0125 37.0253 30.8558C37.0253 30.699 37.1527 30.5725 37.3094 30.5725C37.4661 30.5725 37.5935 30.6998 37.5935 30.8558C37.5935 31.0118 37.4661 31.1399 37.3094 31.1399Z" fill="#F28822"/>
+  <path d="M37.3094 34.0791C36.635 34.0791 36.0864 34.6284 36.0864 35.3021C36.0864 35.9757 36.6357 36.5258 37.3094 36.5258C37.983 36.5258 38.5324 35.9765 38.5324 35.3021C38.5324 34.6277 37.983 34.0791 37.3094 34.0791ZM37.3094 35.5861C37.1527 35.5861 37.0253 35.4588 37.0253 35.3021C37.0253 35.1453 37.1527 35.0187 37.3094 35.0187C37.4661 35.0187 37.5935 35.1461 37.5935 35.3021C37.5935 35.458 37.4661 35.5861 37.3094 35.5861Z" fill="#F28822"/>
+  <path d="M37.251 25.293C36.5442 25.293 35.9692 25.8687 35.9692 26.5755C35.9692 27.2823 36.5442 27.8572 37.251 27.8572C37.9578 27.8572 38.5327 27.2823 38.5327 26.5755C38.5327 25.8687 37.9578 25.293 37.251 25.293ZM37.251 26.8C37.1266 26.8 37.0257 26.699 37.0257 26.5755C37.0257 26.4511 37.1266 26.3502 37.251 26.3502C37.3753 26.3502 37.4763 26.4511 37.4763 26.5755C37.4763 26.699 37.3753 26.8 37.251 26.8Z" fill="#F28822"/>
+  <path d="M50.5642 11.0008H12.647C10.6359 11.0008 9 12.6374 9 14.6485V29.673C9 31.6842 10.6359 33.3201 12.647 33.3201H24.5263L24.0795 33.8279C22.4699 35.6522 21.5838 37.9949 21.5838 40.4265V47.6882H21.5484C20.6336 47.6882 19.8891 48.4327 19.8891 49.3474V52.1407C19.8891 53.0555 20.6336 53.8 21.5484 53.8H30.2877C31.2025 53.8 31.947 53.0555 31.947 52.1407V49.3474C31.947 48.7996 31.6765 48.3166 31.2658 48.0137C31.6516 47.0944 31.9417 45.9965 32.1286 44.7306C32.1647 44.488 32.1964 44.2506 32.2205 44.0223C32.28 43.5009 32.387 42.9953 32.5347 42.504H39.4739C40.3465 42.504 41.0563 41.7949 41.0563 40.9223V33.3201H50.565C52.5761 33.3201 54.212 31.6842 54.212 29.673V14.6478C54.212 12.6366 52.5761 11 50.565 11L50.5642 11.0008ZM15.4652 31.813V29.673C15.4652 27.8781 16.9285 26.4178 18.728 26.4178H26.9398V30.5772L25.8525 31.813H15.4652ZM23.0908 40.4265C23.0908 38.3634 23.8429 36.3733 25.2097 34.8241L26.7273 33.1C26.7273 33.1 26.7281 33.0993 26.7288 33.0985L26.9398 32.8589V39.1493C26.9398 39.1787 26.9534 39.2035 26.9564 39.2322C26.9624 39.2902 26.9715 39.346 26.9903 39.3995C27.0024 39.4341 27.019 39.465 27.0363 39.4974C27.0619 39.5471 27.0928 39.5916 27.1282 39.6338C27.1471 39.6557 27.1636 39.6783 27.1847 39.6986C27.2465 39.7566 27.3158 39.8086 27.3965 39.844C27.4884 39.8847 27.5856 39.8983 27.682 39.9006C27.6858 39.9006 27.6896 39.9028 27.6934 39.9028C27.6986 39.9028 27.7024 39.8998 27.7077 39.8998C27.8908 39.8975 28.0701 39.8357 28.2103 39.7069L30.1114 37.9497C30.9493 37.1728 32.1911 37.0892 33.1345 37.75C33.2521 37.8306 33.3621 37.9226 33.4631 38.0258L33.2965 38.2044C32.7314 38.8125 32.2439 39.4944 31.8475 40.2321C31.6373 40.6232 31.464 41.0308 31.3087 41.446C31.3042 41.4558 31.302 41.4656 31.2982 41.4754C31.0164 42.235 30.8167 43.0277 30.7225 43.8543C30.6991 44.0675 30.6705 44.2853 30.6374 44.5091C30.4527 45.7667 30.1453 46.8442 29.7527 47.6874H23.0908V40.4265ZM30.3457 35.3018C30.3457 35.1458 30.4731 35.0185 30.6298 35.0185C30.7866 35.0185 30.9131 35.1458 30.9131 35.3018C30.9131 35.4578 30.7858 35.5859 30.6298 35.5859C30.4738 35.5859 30.3457 35.4585 30.3457 35.3018ZM33.6861 35.3018C33.6861 35.1458 33.8135 35.0185 33.9702 35.0185C34.1269 35.0185 34.2535 35.1458 34.2535 35.3018C34.2535 35.4578 34.1262 35.5859 33.9702 35.5859C33.8142 35.5859 33.6861 35.4585 33.6861 35.3018ZM30.4399 52.1407C30.4399 52.2244 30.3714 52.293 30.2877 52.293H21.5484C21.4647 52.293 21.3962 52.2244 21.3962 52.1407V49.3474C21.3962 49.2638 21.4647 49.1952 21.5484 49.1952H30.2877C30.3714 49.1952 30.4399 49.2638 30.4399 49.3474V52.1407ZM39.4732 40.9969H33.1504C33.1594 40.9803 33.1654 40.963 33.1745 40.9464C33.5098 40.3218 33.922 39.7446 34.3989 39.2322L34.998 38.5887C35.2286 38.3415 35.2655 37.9723 35.0907 37.6844C34.8051 37.2135 34.4374 36.8224 34.0048 36.5225C34.6619 36.5029 35.1924 35.9649 35.1924 35.3026C35.1924 34.6282 34.6431 34.0796 33.9694 34.0796C33.2958 34.0796 32.7457 34.6289 32.7457 35.3026C32.7457 35.5708 32.8354 35.8172 32.9823 36.0192C32.5754 35.885 32.155 35.821 31.7322 35.8225C31.8076 35.6643 31.8528 35.4887 31.8528 35.3026C31.8528 34.6282 31.3035 34.0796 30.6298 34.0796C29.9562 34.0796 29.4061 34.6289 29.4061 35.3026C29.4061 35.7049 29.6035 36.0591 29.9042 36.2821C29.6148 36.4359 29.3368 36.6144 29.0889 36.8435L28.4521 37.4313V30.856C28.4521 30.8447 28.4476 30.8342 28.4469 30.8229V25.6688C28.4469 25.6688 28.4469 25.6665 28.4469 25.665C28.4469 25.6635 28.4469 25.6628 28.4469 25.6613V23.8897C28.4469 23.8483 28.4808 23.8151 28.5222 23.8151H39.4732C39.5146 23.8151 39.5485 23.8483 39.5485 23.8897V25.6613C39.5485 25.6613 39.5485 25.6635 39.5485 25.665C39.5485 25.6665 39.5485 25.6673 39.5485 25.6688V32.5643C39.5485 32.5643 39.5485 32.5665 39.5485 32.568C39.5485 32.5695 39.5485 32.5703 39.5485 32.5718V40.9238C39.5485 40.9653 39.5146 40.9984 39.4732 40.9984V40.9969ZM41.0555 31.813V26.4178H44.4908C46.2857 26.4178 47.7461 27.8781 47.7461 29.673V31.813H41.0555ZM52.7042 29.673C52.7042 30.8523 51.7442 31.813 50.5642 31.813H49.2531V29.673C49.2531 27.047 47.1169 24.9108 44.4908 24.9108H41.0555V23.8897C41.0555 23.0179 40.3465 22.3081 39.4732 22.3081H28.5222C27.6496 22.3081 26.9398 23.0172 26.9398 23.8897V24.9108H18.728C16.0982 24.9108 13.9582 27.047 13.9582 29.673V31.813H12.647C11.4678 31.813 10.507 30.853 10.507 29.673V14.6478C10.507 13.4678 11.467 12.507 12.647 12.507H50.5642C51.7435 12.507 52.7042 13.467 52.7042 14.6478V29.673Z" fill="#F28822"/>
+  <path d="M14.1731 13.6182C12.9027 13.6182 11.8696 14.6512 11.8696 15.9217C11.8696 17.1921 12.9027 18.2252 14.1731 18.2252C15.4436 18.2252 16.4759 17.1921 16.4759 15.9217C16.4759 14.6512 15.4428 13.6182 14.1731 13.6182ZM14.1731 16.7174C13.7338 16.7174 13.3767 16.3602 13.3767 15.9209C13.3767 15.4816 13.7338 15.1245 14.1731 15.1245C14.6124 15.1245 14.9689 15.4816 14.9689 15.9209C14.9689 16.3602 14.6117 16.7174 14.1731 16.7174Z" fill="#F28822"/>
+  <path d="M20.3526 13.6182C19.0829 13.6182 18.0498 14.6512 18.0498 15.9217C18.0498 17.1921 19.0829 18.2252 20.3526 18.2252C21.6222 18.2252 22.6561 17.1921 22.6561 15.9217C22.6561 14.6512 21.623 13.6182 20.3526 13.6182ZM20.3526 16.7174C19.914 16.7174 19.5568 16.3602 19.5568 15.9209C19.5568 15.4816 19.914 15.1245 20.3526 15.1245C20.7911 15.1245 21.149 15.4816 21.149 15.9209C21.149 16.3602 20.7919 16.7174 20.3526 16.7174Z" fill="#F28822"/>
+</svg>
+	                      <h4>Advanced Remote Printing</h4>
+	                      <p>Securely attach and print from devices on one single network to printers on a disconnected network, actually to home printers.</p>
+	                  </div>
+	              </div>
+	              
+	               <div class="col-md-4 mt-3">
+	                  <div class="text-center box">
+	                     <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <path d="M46.6655 10H22.8329C22.7838 10 22.7354 10.005 22.6877 10.0126C22.6772 10.0143 22.6667 10.0153 22.6563 10.0174C22.6424 10.0201 22.6288 10.0241 22.615 10.0274C22.5996 10.0312 22.584 10.0345 22.5687 10.0391C22.5588 10.0421 22.5492 10.0461 22.5393 10.0494C22.5208 10.0557 22.5021 10.0618 22.4838 10.0693C22.4763 10.0724 22.4692 10.0762 22.4618 10.0795C22.4419 10.0883 22.4219 10.0972 22.4025 10.1075C22.3956 10.1111 22.3893 10.1155 22.3825 10.1194C22.3632 10.1302 22.3441 10.1411 22.3255 10.1535C22.3155 10.1602 22.3061 10.1678 22.2964 10.1749C22.2819 10.1854 22.2671 10.1955 22.253 10.207C22.2294 10.2264 22.2066 10.2469 22.1849 10.2686L16.685 15.7685C16.5132 15.9403 16.4165 16.1735 16.4165 16.4165V28.3328H12.7499C11.2312 28.3328 10 29.564 10 31.0827V47.5822C10 48.0883 10.4104 48.4987 10.9167 48.4987H14.5832V46.6655H11.8333V31.0826C11.8333 30.5764 12.2437 30.1659 12.7499 30.1659H33.8325V28.3327H18.2497V17.3331H22.8329C23.3391 17.3331 23.7495 16.9226 23.7495 16.4164V11.8332H45.7488V22.8329H47.5821V10.9167C47.5821 10.4104 47.1718 10 46.6655 10ZM21.9163 15.4998H19.5459L21.9163 13.1294V15.4998Z" fill="#F28822"/>
+  <path d="M18.2493 52.1649V45.7483H33.8321V43.915H17.3327C16.8264 43.915 16.416 44.3255 16.416 44.8317V53.0814C16.416 53.5877 16.8264 53.9981 17.3327 53.9981H34.7488V52.1649H18.2493Z" fill="#F28822"/>
+  <path d="M18.2502 31.999H16.417V33.8323H18.2502V31.999Z" fill="#F28822"/>
+  <path d="M18.2507 35.666H16.4175V37.4993H18.2507V35.666Z" fill="#F28822"/>
+  <path d="M21.9167 31.999H20.0835V33.8323H21.9167V31.999Z" fill="#F28822"/>
+  <path d="M49.4161 24.666H40.2497C37.7197 24.669 35.6695 26.7193 35.6665 29.2492V49.4152C35.6696 51.9451 37.7197 53.9954 40.2497 53.9984H49.4161C51.9461 53.9954 53.9962 51.9451 53.9992 49.4152V29.2492C53.9963 26.7192 51.946 24.669 49.4161 24.666ZM52.166 49.4152C52.166 50.9339 50.9348 52.1651 49.4161 52.1651H40.2497C38.7309 52.1651 37.4997 50.9339 37.4997 49.4152V29.2492C37.4997 27.7304 38.7309 26.4993 40.2497 26.4993H49.4161C50.9348 26.4993 52.166 27.7304 52.166 29.2492V49.4152Z" fill="#F28822"/>
+  <path d="M45.7493 48.4971H43.916V50.3303H45.7493V48.4971Z" fill="#F28822"/>
+  <path d="M50.3322 28.3311H39.3325V30.1643H50.3322V28.3311Z" fill="#F28822"/>
+  <path d="M42.9077 42.3305L44.1644 43.6651C44.5443 43.3234 45.121 43.3234 45.5009 43.6651L46.7576 42.3305C45.6698 41.3286 43.9956 41.3286 42.9077 42.3305Z" fill="#F28822"/>
+  <path d="M40.5361 40.0966L41.7938 41.4312C43.5118 39.8538 46.1513 39.8538 47.8693 41.4312L49.1269 40.0966C46.6986 37.8636 42.9645 37.8636 40.5361 40.0966Z" fill="#F28822"/>
+  <path d="M37.7876 37.5041L39.0453 38.8378C42.3173 35.8295 47.3485 35.8295 50.6206 38.8378L51.8782 37.5041C47.8955 33.8411 41.7703 33.8411 37.7876 37.5041Z" fill="#F28822"/>
+</svg>
+	                      <h4>Smart Print Integration</h4>
+	                      <p>Secure print submission and rendering for Windows-based devices, which includes Surface tablets, desktops, and laptops.</p>
+	                  </div>
+	              </div>
+	              
+	               <div class="col-md-4 mt-3">
+	                  <div class="text-center box">
+	                      <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <path d="M32.7917 38.3333H20.9167C20.4813 38.3333 20.125 37.9771 20.125 37.5417C20.125 37.1063 20.4813 36.75 20.9167 36.75H32.7917C33.2271 36.75 33.5833 37.1063 33.5833 37.5417C33.5833 37.9771 33.2271 38.3333 32.7917 38.3333ZM29.625 40.7083C29.625 40.2729 29.2688 39.9167 28.8333 39.9167H20.9167C20.4813 39.9167 20.125 40.2729 20.125 40.7083C20.125 41.1438 20.4813 41.5 20.9167 41.5H28.8333C29.2688 41.5 29.625 41.1438 29.625 40.7083ZM20.9167 43.0833C20.4813 43.0833 20.125 43.4396 20.125 43.875C20.125 44.3104 20.4813 44.6667 20.9167 44.6667H26.4583C26.8938 44.6667 27.25 44.3104 27.25 43.875C27.25 43.4396 26.8938 43.0833 26.4583 43.0833H20.9167ZM43.875 43.875C43.4396 43.875 43.0833 44.2313 43.0833 44.6667V46.25C43.0833 46.6854 43.4396 47.0417 43.875 47.0417C44.3104 47.0417 44.6667 46.6854 44.6667 46.25V44.6667C44.6667 44.2313 44.3104 43.875 43.875 43.875ZM40.17 31.1688L30.67 34.3354C30.5908 34.3592 30.5037 34.375 30.4246 34.375C30.3454 34.375 30.2583 34.3592 30.1792 34.3354L20.6792 31.1688C20.3546 31.0579 20.1408 30.7571 20.1408 30.4167V24.875C20.1408 24.7958 20.1567 24.7246 20.1725 24.6533C20.1725 24.6296 20.1883 24.6137 20.1963 24.59C20.2121 24.5425 20.2358 24.495 20.2675 24.4475C20.2833 24.4317 20.2912 24.4079 20.3071 24.3921C20.3467 24.3446 20.3942 24.2971 20.4417 24.2575C20.4417 24.2575 20.4575 24.2417 20.4654 24.2417C20.5288 24.1942 20.5921 24.1625 20.6633 24.1388H20.6792L30.1792 20.9721C30.3454 20.9167 30.5196 20.9167 30.6779 20.9721L40.1779 24.1388C40.1779 24.1388 40.1858 24.1388 40.1938 24.1388C40.265 24.1625 40.3283 24.1942 40.3917 24.2417C40.455 24.2892 40.3996 24.2496 40.4075 24.2575C40.4629 24.2971 40.5025 24.3446 40.55 24.4C40.5658 24.4158 40.5737 24.4396 40.5896 24.4554C40.6213 24.5029 40.645 24.5504 40.6608 24.5979C40.6687 24.6217 40.6767 24.6375 40.6846 24.6613C40.7083 24.7325 40.7162 24.8038 40.7162 24.8829V30.4246C40.7162 30.765 40.4946 31.0658 40.1779 31.1767L40.17 31.1688ZM23.4183 24.875L30.4167 27.2104L37.415 24.875L30.4167 22.5396L23.4183 24.875ZM21.7083 29.8467L29.625 32.4829V28.6117L21.7083 25.9754V29.8467ZM39.125 25.9754L31.2083 28.6117V32.4829L39.125 29.8467V25.9754ZM51 40.7083V48.625C51 49.9313 49.9313 51 48.625 51H39.125C37.8188 51 36.75 49.9313 36.75 48.625V40.7083C36.75 40.2729 37.1063 39.9167 37.5417 39.9167H47.0417V38.3333C47.0417 36.5837 45.6246 35.1667 43.875 35.1667C42.3787 35.1667 41.0725 36.2354 40.7717 37.7C40.6846 38.1275 40.265 38.4046 39.8375 38.3175C39.41 38.2304 39.1329 37.8108 39.22 37.3833C39.6158 35.4438 41.1754 33.9792 43.0833 33.6546V18.5417C43.0833 18.1063 42.7271 17.75 42.2917 17.75H18.5417C18.1063 17.75 17.75 18.1063 17.75 18.5417V46.25C17.75 46.6854 18.1063 47.0417 18.5417 47.0417H34.375C34.8104 47.0417 35.1667 47.3979 35.1667 47.8333C35.1667 48.2687 34.8104 48.625 34.375 48.625H18.5417C17.2354 48.625 16.1667 47.5563 16.1667 46.25H15.375C14.0688 46.25 13 45.1813 13 43.875V21.2887C13 20.8533 13.3562 20.4971 13.7917 20.4971C14.2271 20.4971 14.5833 20.8533 14.5833 21.2887V43.875C14.5833 44.3104 14.9396 44.6667 15.375 44.6667H16.1667V18.5417C16.1667 17.2354 17.2354 16.1667 18.5417 16.1667H39.9167V15.375C39.9167 14.9396 39.5604 14.5833 39.125 14.5833H15.375C14.9396 14.5833 14.5833 14.9396 14.5833 15.375V18.4308C14.5833 18.8663 14.2271 19.2225 13.7917 19.2225C13.3562 19.2225 13 18.8663 13 18.4308V15.375C13 14.0688 14.0688 13 15.375 13H39.125C40.4313 13 41.5 14.0688 41.5 15.375V16.1667H42.2917C43.5979 16.1667 44.6667 17.2354 44.6667 18.5417V33.6546C46.9071 34.0346 48.625 35.9821 48.625 38.3333V39.9167H50.2083C50.6437 39.9167 51 40.2729 51 40.7083ZM49.4167 41.5H38.3333V48.625C38.3333 49.0604 38.6896 49.4167 39.125 49.4167H48.625C49.0604 49.4167 49.4167 49.0604 49.4167 48.625V41.5Z" fill="#F28822"/>
+</svg>
+	                      <h4>Secure Print Release</h4>
+	                      <p>Flexible pull printing authorizes users to select an output device at the time of print release, reducing waste and improving security.</p>
+	                  </div>
+	              </div>
+	              
+	               <div class="col-md-4 mt-3">
+	                  <div class="text-center box">
+	                      <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M13 18.0535C13 16.3671 14.3671 15 16.0535 15H44.4822C46.1686 15 47.5355 16.3671 47.5355 18.0535V40.8732C47.5355 42.5594 46.1686 43.9265 44.4822 43.9265H16.0535C14.3671 43.9265 13 42.5594 13 40.8732V18.0535ZM16.0535 17.0457C15.4969 17.0457 15.0457 17.4969 15.0457 18.0535V40.8732C15.0457 41.4298 15.4969 41.8809 16.0535 41.8809H44.4822C45.0388 41.8809 45.4899 41.4298 45.4899 40.8732V18.0535C45.4899 17.4969 45.0388 17.0457 44.4822 17.0457H16.0535Z" fill="#F28822"/>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M48.8146 21.3767H46.5134V19.3311H48.8146C50.501 19.3311 51.8682 20.6981 51.8682 22.3845V45.2042C51.8682 46.8905 50.501 48.2576 48.8146 48.2576H20.386C18.6996 48.2576 17.3325 46.8905 17.3325 45.2042V43.0968H19.3782V45.2042C19.3782 45.7607 19.8294 46.2119 20.386 46.2119H48.8146C49.3712 46.2119 49.8225 45.7607 49.8225 45.2042V22.3845C49.8225 21.8279 49.3712 21.3767 48.8146 21.3767Z" fill="#F28822"/>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M16.1914 19.0697C16.1914 18.5048 16.6493 18.0469 17.2142 18.0469H18.0071C18.572 18.0469 19.03 18.5048 19.03 19.0697C19.03 19.6346 18.572 20.0925 18.0071 20.0925H17.2142C16.6493 20.0925 16.1914 19.6346 16.1914 19.0697Z" fill="#F28822"/>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M19.3818 19.0697C19.3818 18.5048 19.8398 18.0469 20.4047 18.0469H21.1976C21.7625 18.0469 22.2204 18.5048 22.2204 19.0697C22.2204 19.6346 21.7625 20.0925 21.1976 20.0925H20.4047C19.8398 20.0925 19.3818 19.6346 19.3818 19.0697Z" fill="#F28822"/>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0229 21.0908H45.8066V23.1365H14.0229V21.0908Z" fill="#F28822"/>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M22.5542 19.0697C22.5542 18.5048 23.0121 18.0469 23.577 18.0469H24.3699C24.9348 18.0469 25.3928 18.5048 25.3928 19.0697C25.3928 19.6346 24.9348 20.0925 24.3699 20.0925H23.577C23.0121 20.0925 22.5542 19.6346 22.5542 19.0697Z" fill="#F28822"/>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M46.5127 25.4238H50.1382V27.4695H46.5127V25.4238Z" fill="#F28822"/>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M26.2825 30.4028C27.8979 28.7876 30.5169 28.7876 32.1324 30.4028C33.7477 32.0183 33.7477 34.6374 32.1324 36.2526L29.8752 38.5096C28.2599 40.1251 25.6409 40.1251 24.0255 38.5096C22.4101 36.8944 22.4101 34.2753 24.0255 32.6598L26.2825 30.4028ZM30.6859 31.8493C29.8693 31.0329 28.5455 31.0329 27.729 31.8493L25.472 34.1063C24.6555 34.9229 24.6555 36.2467 25.472 37.0631C26.2885 37.8798 27.6123 37.8798 28.4287 37.0631L30.6859 34.8061C31.5023 33.9897 31.5023 32.666 30.6859 31.8493Z" fill="#F28822"/>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M30.5209 26.1666C32.1361 24.5512 34.7552 24.5512 36.3707 26.1666C37.9859 27.782 37.9859 30.4011 36.3707 32.0163L34.1135 34.2735C32.4982 35.8888 29.8792 35.8888 28.2638 34.2735C26.6484 32.6581 26.6484 30.039 28.2638 28.4235L30.5209 26.1666ZM34.9242 27.6131C34.1076 26.7966 32.7838 26.7966 31.9674 27.6131L29.7102 29.8702C28.8938 30.6867 28.8938 32.0104 29.7102 32.8268C30.5268 33.6435 31.8506 33.6435 32.667 32.8268L34.9242 30.5699C35.7406 29.7534 35.7406 28.4297 34.9242 27.6131Z" fill="#F28822"/>
+</svg>
+	                      <h4>Robust MDM Support</h4>
+	                      <p>Smooth integration with directing MDM solutions such as AirWatch, MobileIron, and Good for app behavior management and controlled deployment.</p>
+	                  </div>
+	              </div>
+	              
+	         </div>
+	    </div>
+	</section>
+	
+	
+<section class="pt-5 pb-5">
+    <div class="container">
+        <h3 style="font-size:32px;color:#1662c0;text-align:center" class="pb-3"><span style="color:#000">Compatibility  </span> Details</h3>
+        <div class="row">
+            <div class="col-md-4">
+               <div class="ribbon">
+                   <h3>Requirements</h3>
+                   <p class="compatibility-label-content">Intel or AMD Processor, 4 GB RAM, 100 MB Free Disk Space</p>
+             </div>
+            </div>
+            
+             <div class="col-md-4">
+               <div class="ribbon">
+                   <h3>Operating System</h3>
+                   <p class="compatibility-label-content">Windows 8, Windows 10, Windows 11, Windows 12</p>
+             </div>
+            </div>
+            
+             <div class="col-md-4">
+               <div class="ribbon">
+                   <h3>Supported Browsers</h3>
+                   <p class="compatibility-label-content">Google Chrome, Mozilla Firefox, Microsoft Edge</p>
+             </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section  style="padding:80px 0px 60px 0px;background:#fff">
+	<div class="container">
+	     <div class="row" style="">
+	           <div class="col-md-4">
+	              <img src="images/support27.png" alt="Smart Printer Setup">
+	         </div>
+	         <div class="col-md-8">
+	             <h3 style="font-size:32px;color:#1662c0">24/7 Professional Help</h3>
+	             <h4 style="font-size:28px;font-weight:400">Support When You Require It</h4>
+	            <p style="font-size:18px;text-align:justify;color:#393939">Our devoted support team is available around the clock to help you with any problems during the setup procedure.
+	            Whether you're troubleshooting a connection problem or require assistance with driver installation, we're here to guarantee your printer is up and operating smoothly.
+	            </p>
+	             
+	            <p class="pt-3" style="font-size:14px;text-align:justify;color:#393939">PC Packard is a self-dependent solution provider for software products. By downloading Smart Printer Support, you agree to our <a href="privacy-policy.html" style="color:#10add6">Privacy Policy</a>, <a href="terms-condition.html" style="color:#10add6">Terms and Conditions</a> and <a href="eula.html" style="color:#10add6">EULA</a>. Complete access to management features and printer troubleshooting requires an $11.99 monthly subscription, with more premium assistance available via upgrades. All names and trademarks cited are for reference purposes only, and no affiliation is indicated with any third-party companies. Smart Printer Help DOES NOT sell or supply third-party technical support.
+                </p>
+	             <button class="mt-1 default-btn book-appoinment jivoButton">CONTACT FOR DOWNLOAD</button>
+	         </div>
+	     </div>
+	</div>
+</section>
+
+
+	<section  style="background:#f5f5f5">
+	    <div class="container pt-5 pb-5">
+	         <h3 style="font-size:32px;color:#1662c0;text-align:center" class="pb-3"><span style="color:#000">Order  </span> with Confidence</h3>
+	         <div class="row">
+	              <div class="col-md-3">
+	                  <div class="text-center box">
+	                      <img src="images/oi-1.png" alt="oi-1" style="width:90px">
+	                      <h4 class="pt-2">Assured Satisfaction </h4>
+	                      <p>Enjoy our money-back guarantee and 30-day risk-free trial.</p>
+	                  </div>
+	              </div>
+	              
+	               <div class="col-md-3">
+	                  <div class="text-center box">
+	                      <img src="images/oi-1.png" alt="oi-2" style="width:90px"> 
+	                      <h4 class="pt-2">Premium Help</h4>
+	                      <p>Get 24/7 client support to assist with any problems or queries.</p>
+	                  </div>
+	              </div>
+	              
+	               <div class="col-md-3">
+	                  <div class="text-center box">
+	                      <img src="images/oi-3.png" alt="oi-1" style="width:90px">
+	                      <h4 class="pt-2">Trusted Security</h4>
+	                      <p>Our software is 100% safe, secure, and free from adware.</p>
+	                  </div>
+	              </div>
+	              
+	               <div class="col-md-3">
+	                  <div class="text-center box">
+	                      <img src="images/oi-4.png" alt="oi-1" style="width:90px">
+	                      <h4 class="pt-2">Secure Transactions</h4>
+	                      <p>Quick and fast downloads with encrypted connections.</p>
+	                  </div>
+	              </div>
+	              
+	              
+	              
+	              
+	         </div>
+	    </div>
+	</section>
+	<br>
+	
+	<section class="testimonial-section">
+		<div class="container-fluid">
+			
+				<div class="embedsocial-hashtag" data-ref="f29725e290c798b1131662b1d9d4353f8963d83d"></div> <script> (function(d, s, id) { var js; if (d.getElementById(id)) {return;} js = d.createElement(s); js.id = id; js.src = "../embedsocial.com/cdn/ht.js"; d.getElementsByTagName("head")[0].appendChild(js); }(document, "script", "EmbedSocialHashtagScript")); </script>
+		
+		</div>
+	</section>
+
+	
+	
+
+
+<style>
+    .ribbon {
+    color: #fff;
+    background: #eee;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    padding: 20px 0 0;
+    margin: 0 15px 0 0;
+}
+.ribbon:before {
+    content: "";
+    background: linear-gradient(to top left, transparent 49%, #165dba 50%);
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 70px;
+    right: -15px;
+}
+
+.ribbon h3 {
+    background: #165dba;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 0;
+    width: calc(100% - 20px);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 10% 50%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 10% 50%);
+    margin: 0 0 0 35px;
+}
+.compatibility-label-content {
+    font-size: 17px;
+    letter-spacing: .5px;
+    padding: 20px 50px;
+    color: rgba(0, 0, 0, .7);
+}
+</style>
+
+
+<div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="contactModalLabel">Fill the Details</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       <form id="contactForm" method="post" action="smart-printer-setup">
+  <div class="mb-3">
+    <label for="name" class="form-label">Name</label>
+    <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+  </div>
+  <div class="mb-3">
+    <label for="email" class="form-label">Email</label>
+    <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+  </div>
+  <div class="mb-3">
+    <label for="number" class="form-label">Phone Number</label>
+    <input type="tel" class="form-control" id="number" name="number" placeholder="Enter your number" required>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+
+  
+  
+
+	
+
+
+	<style>
+
+
+    .footer-cert-img {
+        width: 60%;
+        height: auto;
+        cursor: pointer;
+        border-radius: 8px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    /* Mobile Responsive */
+    @media (max-width: 576px) {
+        .footer-cert-img {
+            width: 50%;
+        }
+
+  
+        .footer-certificates .col-lg-2 {
+            margin-bottom: 20px;
+        }
+    }
+</style>
+
+<!-- Start Footer Section -->
+<section class="footer-subscribe-wrapper text-dark">
+
+    <!-- End Subscribe Section -->
+    <!-- Start Footer Section -->
+    <div class="footer-area" style="background:#000;">
+        <div class="container" style="padding-left:0px !important; padding-right:0px !important;">
+            
+            <div class="row" style="border-bottom:1px solid white;padding-top:30px;padding-bottom:50px">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="subscribe-content">
+                        <img src="images/pc-logo-2.png" class="white-logo" alt="logo" style="width: 150px;">
+                        <p>Any Questions? We’re here to help! Available between 9 AM – 8 PM CT, 7 days a week.</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <div class="footer-heading">
+                            <h3>Our Services</h3>
+                        </div>
+                        <ul class="footer-quick-links">
+                            <li><a href="pc-packard-computer-services.html" target="_blank">Computer</a></li>
+                            <li><a href="comprehensive-printer-services.html" target="_blank">Printer & Scanner</a></li>
+                            <li><a href="expert-wifi-network-services.html" target="_blank">WiFi & Network</a></li>
+                            <li><a href="pc-packard-smart-home-solutions.html" target="_blank">Smart Home</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <div class="footer-heading">
+                            <h3>Useful Links</h3>
+                        </div>
+                        <ul class="footer-quick-links">
+                            <li><a href="about.html" target="_blank">About Us</a></li>
+                            <li><a href="partner-with-us.html" target="_blank">Partner With Us</a></li>
+                            <li><a href="membership.html" target="_blank">Membership</a></li>
+                            <li><a href="faq.html" target="_blank">FAQ's</a></li>
+                            <li><a href="cookie-policy.html" target="_blank">Cookie Policy</a></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <div class="footer-heading">
+                            <h3>Policies</h3>
+                        </div>
+                        <ul class="footer-quick-links">
+                            <li><a href="disclaimer.html" target="_blank">Disclaimer</a></li>
+                            <li><a href="privacy-policy.html" target="_blank">Privacy & Policy</a></li>
+                            <li><a href="safety-and-support.html" target="_blank">Safety and Support</a></li>
+                            <li><a href="cancellation-policy.html" target="_blank">Cancellation Policy</a></li>
+                            <li><a href="terms-condition.html" target="_blank">Trems & Conditions</a></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <div class="footer-heading">
+                            <h3>Contact Info</h3>
+                        </div>
+                        <!--<div class="footer-info-contact">-->
+                        <!--	<i class="flaticon-phone-call"></i>-->
+                        <!--	<h3>Phone</h3>-->
+                        <!--	<span>+1800 342-4999</span>-->
+                        <!--</div>-->
+                        <div class="footer-info-contact">
+                            <i class="flaticon-email text-white" ></i>
+                            <h3 class="text-white">Email</h3>
+                            <span class="text-white">nifatkhan40@gmail.com</span>
+                        </div>
+                        <div class="footer-info-contact">
+                            <i class="flaticon-placeholder text-white"></i>
+                            <h3 class="text-white">Address</h3>
+                            <span class="text-white">7-1230 MARENGER ST , ORLÉANS, ON, K1C 1S2.</span>
+                        </div>
+                        <!-- <div>
+                            <img src="images/payment-icon.png">
+                        </div> -->
+                        <!-- <a href="https://www.bbb.org/us/ga/albany/profile/computer-software/techify-care-llc-0743-91824222/#sealclick" target="_blank" rel="nofollow"><img class="lazy loaded" src="https://seal-centralgeorgia.bbb.org/seals/blue-seal-280-80-bbb-91824222.png" data-src="https://seal-centralgeorgia.bbb.org/seals/blue-seal-280-80-bbb-91824222.png" style="border: 0;" alt="PC Packard, LLC. BBB Business Review" data-was-processed="true"></a>		 -->
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center justify-content-center footer-certificates" style="padding-top:10px">
+
+                <div class="col-lg-2 col-md-4 col-sm-6 text-center">
+                    <img src="assets/img/v2.png" onclick="redirecttocertficate1()"
+                        alt="Certificate 1" class="footer-cert-img">
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-6 text-center">
+                    <img src="assets/img/v3.png" onclick="openCenteredPopup()"
+                        alt="Certificate 3" class="footer-cert-img">
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-6 text-center">
+                    <span id="siteseal" class="d-flex justify-content-center mt-3">
+                        <script async type="text/javascript" src="https://seal.godaddy.com/getSealBasic?sealID=2pWXdVop79UBf7sRAc3NsRjy5wmxAuTC7JRGUbFmj6kBau4rHcbWL1iCYmoa"></script>
+                    </span>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 text-center">
+                    <div class="mt-5">
+                        <img src="images/payment-icon.png">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- End Footer Section -->
+    <!-- Start Copy Right Section -->
+    <div class="copyright-area" style="background:#000">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 col-md-6">
+                    <p> <i class="far fa-copyright"></i> 2026 PC Packard - All Rights Reserved.</p>
+                </div>
+                <div class="col-lg-8 col-md-8">
+                    <ul>
+                        <li> <a href="terms-condition.html">Terms & Conditions</a></li>
+                        <li> <a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="eula.html" target="_blank">EULA</a></li>
+                            <li><a href="uninstall-instructions.html" target="_blank">Uninstall Instruction</a></li>
+                            <li><a href="opt-in-and-opt-out-policy.html">Opt-In and Opt-Out Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Copy Right Section -->
+</section>
+<!-- End Footer Section -->
+<!-- Start Go Top Section -->
+<div class="go-top">
+    <i class="fas fa-chevron-up"></i>
+    <i class="fas fa-chevron-up"></i>
+</div>
+<style>
+    .footer-heading h3{
+        color:#fff !important;
+    }
+    .footer-quick-links li a{
+        color:#fff !important;
+    }
+     .footer-quick-links li{
+        line-height:19px !important;
+    }
+</style>
+<!-- End Go Top Section -->
+<!-- jQuery Min JS -->
+<script src="assets/js/jquery.min.js"></script>
+<!-- Popper Min JS -->
+<script src="assets/js/popper.min.js"></script>
+<!-- Bootstrap Min JS -->
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<!-- Mean Menu JS -->
+<script src="assets/js/jquery.meanmenu.js"></script>
+<!-- Appear Min JS -->
+<script src="assets/js/jquery.appear.min.js"></script>
+<!-- CounterUp Min JS -->
+<script src="assets/js/jquery.waypoints.min.js"></script>
+<script src="assets/js/jquery.counterup.min.js"></script>
+<!-- Owl Carousel Min JS -->
+<script src="assets/js/owl.carousel.min.js"></script>
+<!-- Swiper Min JS -->
+<script src="assets/js/swiper.min.js"></script>
+<!-- WOW Min JS -->
+<script src="assets/js/wow.min.js"></script>
+<!-- Main JS -->
+<script src="assets/js/main.js"></script>
+</body>
+
+<script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'},{'ap':'cpsh-oh'},{'server':'p3plzcpnl505352'},{'dcenter':'p3'},{'cp_id':'10736259'},{'cp_cl':'8'}) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script><script src='../img1.wsimg.com/signals/js/clients/scc-c2/scc-c2.min.js'></script>
+<!-- Mirrored from www.pcpackard.com/smart-printer-setup by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 06 May 2026 03:56:36 GMT -->
+</html>
+<!-- Modal For Need Expert Form -->
+<!-- Modal For Need Expert Form -->
+<div class="modal fade" id="appoinmentModel" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="appoinmentModelLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="modal-body" style="padding: 0;">
+                <div class="container">
+                    <div class="row">
+                        <!-- Image section -->
+                        <div class="col-lg-6 col-md-12" style="padding: 0 !important;">
+                            <img src="icons/contact.jpg" alt="" class="img-fluid" style="border-radius: 0; width: 100%;">
+                        </div>
+                        <!-- Form section -->
+                        <div class="col-lg-6 col-md-12">
+                            <div class="container">
+                                <div class="form-content" style="margin-top: 30px;">
+                                    <h3 class="text-center mt-2">Need expert help?</h3>
+                                </div>
+                                <form>
+                                    <div class="row mb-3">
+                                        <div class="col-12">
+                                            <label for="">Name</label>
+                                            <div class="input-group">
+                                                <span class="input-group-text br-0"><i class="fas fa-user"></i></span>
+                                                <input type="text" class="form-control br-0" placeholder="Enter your name">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <div class="col-12">
+                                            <label for="">Email</label>
+                                            <div class="input-group">
+                                                <span class="input-group-text br-0"><i class="fas fa-envelope"></i></span>
+                                                <input type="email" class="form-control br-0" placeholder="Enter your email" id="email">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <div class="col-12">
+                                            <label for="">Country</label>
+                                            <div class="input-group">
+                                                <span class="input-group-text br-0"><i class="fas fa-globe"></i></span>
+                                                <select name="" id="" class="form-control br-0">
+                                                    <option value="">--Please Select--</option>
+                                                    <option value="UK">UK</option>
+                                                    <option value="USA">USA</option>
+                                                    <option value="CA">CA</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <div class="col-12">
+                                            <label for="">Support For</label>
+                                            <div class="input-group">
+                                                <span class="input-group-text br-0"><i class="fas fa-tools"></i></span>
+                                                <select name="" id="" class="form-control br-0">
+                                                    <option value="">--Please Select--</option>
+                                                    <option value="Computer & Printers">Computer & Printers</option>
+                                                    <option value="Wifi & Network">Wifi & Network</option>
+                                                    <option value="Mobile Devices">Mobile Devices</option>
+                                                    <option value="Audio & Video">Audio & Video</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <div class="col-12">
+                                            <label for="">Phone</label>
+                                            <div class="input-group">
+                                                <span class="input-group-text br-0"><i class="fas fa-phone"></i></span>
+                                                <input type="tel" class="form-control br-0" placeholder="Enter your phone number">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p>Choose preferred time of day for us to contact you.</p>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="vehicle1" value="08:00 - 11:00">
+                                        <label class="form-check-label" for="vehicle1">08:00 - 11:00</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="vehicle2" value="11:00 - 15:00">
+                                        <label class="form-check-label" for="vehicle2">11:00 - 15:00</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="vehicle3" value="13:00 - 19:00">
+                                        <label class="form-check-label" for="vehicle3">13:00 - 19:00</label>
+                                    </div>
+                                    <div class="btn-book mt-3 text-end">
+                                        <a class="default-btn project-btn-1" href="#">Book Appointment<span></span></a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Accept Cookies Popup 
+<div id="cookieConsent" class="alert alert-info">
+    <strong>Cookies Notice:</strong> We use cookies to improve your experience on our site. 
+    By continuing to browse, you agree to our use of cookies. 
+	<div class="row">
+		<div class="col-3">
+    		<button onclick="closePopup();" class="btn btn-danger btn-sm" style="background:#ae0d0d;">Decline</button>
+		</div>
+		<div class="col-3">
+    		<button id="acceptCookies" class="btn btn-primary btn-sm">Accept</button>
+		</div>
+	</div>
+</div>--->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="../ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    // Function to check if the cookies consent has been accepted
+    function checkCookieConsent() {
+        const consent = localStorage.getItem('cookieConsent');
+        if (!consent) {
+            document.getElementById('cookieConsent').style.display = 'block'; // Show consent banner
+        }
+    }
+    // Function to accept cookies
+    function acceptCookies() {
+        localStorage.setItem('cookieConsent', 'accepted'); // Store the consent
+        document.getElementById('cookieConsent').style.display = 'none'; // Hide banner
+    }
+
+    function closePopup() {
+        localStorage.setItem('cookieConsent', 'rejected'); // Store the consent
+        document.getElementById('cookieConsent').style.display = 'none'; // Hide banner
+    }
+    // Check for cookie consent on page load
+    window.onload = checkCookieConsent;
+    // Add event listener for the accept button
+    document.getElementById('acceptCookies').addEventListener('click', acceptCookies);
+</script>
+<!-- Submit Contact Us Form -->
+<script>
+    $(document).ready(function() {
+        $(".btn-book a").on("click", function(e) {
+            e.preventDefault();
+            // Collect form data
+            let name = $("input[placeholder='Enter your name']").val().trim();
+            let email = $("#email").val();
+            let country = $("select").eq(0).val();
+            let supportFor = $("select").eq(1).val();
+            let phone = $("input[placeholder='Enter your phone number']").val().trim();
+            let timePreferences = [];
+            $("input.form-check-input:checked").each(function() {
+                timePreferences.push($(this).val());
+            });
+            // Validation
+            if (name === "") {
+                Swal.fire("Validation Error", "Name is required.", "warning");
+                return;
+            }
+            if (email === "") {
+                Swal.fire("Validation Error", "Email is required.", "warning");
+                return;
+            }
+            if (!validateEmail(email)) {
+                Swal.fire("Validation Error", "Please enter a valid email address.", "warning");
+                return;
+            }
+            if (country === "") {
+                Swal.fire("Validation Error", "Please select a country.", "warning");
+                return;
+            }
+            if (supportFor === "") {
+                Swal.fire("Validation Error", "Please select a support category.", "warning");
+                return;
+            }
+            if (phone === "") {
+                Swal.fire("Validation Error", "Phone number is required.", "warning");
+                return;
+            }
+            if (timePreferences.length === 0) {
+                Swal.fire("Validation Error", "Please select at least one preferred time.", "warning");
+                return;
+            }
+            // Send form data via AJAX
+            $.ajax({
+                url: "submit_form.php", // PHP file to process data
+                type: "POST",
+                data: {
+                    name: name,
+                    email: email,
+                    country: country,
+                    supportFor: supportFor,
+                    phone: phone,
+                    timePreferences: timePreferences.join(", ") // Convert array to string
+                },
+                success: function(response) {
+                    // Show SweetAlert based on response
+                    if (response === "success") {
+                        Swal.fire("Success!", "Your appointment has been booked.", "success");
+                        // Clear form fields after submission
+                        $("form")[0].reset();
+                        $(".btn-close").click();
+                    } else {
+                        Swal.fire("Error!", "There was an error booking your appointment. Please try again.", "error");
+                    }
+                },
+                error: function() {
+                    Swal.fire("Error!", "There was an error processing your request.", "error");
+                }
+            });
+        });
+
+        // Email validation function
+        function validateEmail(email) {
+            const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return regex.test(email);
+        }
+    });
+</script>
+
+
+
+
